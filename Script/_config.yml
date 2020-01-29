@@ -16,14 +16,14 @@
 
 #######################################################################################
 # Jekyll site settings
-title: Ingeneursinformatik 2020
+title: Ingenieurinformatik 2020
 author: Prof. Dr. Lukas Arnold
 email: YOUR EMAIL
 description: >-
   Dieses Buch soll als Skript zur Ingeneursinformatik Verlesung 2020 an der Bergischen Universität Wuppertal dienen.
 
-baseurl: /Vorlesung_Ingeneursinformatik/
-url: http://test.com
+baseurl: /Vorlesung_Ingenieurinformatik/
+url: https://lu-kas.github.io
 
 
 #######################################################################################
