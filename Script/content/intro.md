@@ -19,3 +19,15 @@
 An der Ausarbeitung des Skripts und der Übungen sind beteiligt gewesen (in alphabetischer Reihenfolge):
 
 * Lukas Arnold
+
+## Danksagung
+
+* Team von Jupyter
+* Team von JupyterLab
+* Team von Jupter Book
+
+Jeweils mit Links zu Webpage und GitHub repos
+
+## English Version
+
+An english version is planned? Maybe? Contact Lukas.

@@ -42,23 +42,53 @@
 # Add a header and sample content section
 - header: Script
 
+# Zero chapter
+- title: Organisatorisches
+  url: /01_organisatorisches/01_organisatorisches
+  not_numbered: false
+  expand_sections: false
+  sections:
+  - title: Moodle
+    url: /01_organisatorisches/02_moodle
+    expand_subsections: false
+  - title: Vorlesungsskript
+    url: /01_organisatorisches/03_vorlesungsskript
+    expand_subsections: false
+  - title: Videoaufzeichung
+    url: /01_organisatorisches/04_videoaufzeichnung
+    expand_subsections: false
+  - title: JupyterLab
+    url: /01_organisatorisches/05_jupyterlab
+    expand_subsections: false
+  - title: Beispieldatensätze
+    url: /01_organisatorisches/06_beispieldatensaetze
+    expand_subsections: false
+  - title: Kontakt
+    url: /01_organisatorisches/99_kontakt
+    expand_subsections: false
+    
 # First chapter
 - title: Computertechnik
-  url: /computertechnik/einleitung
+  url: /computertechnik/01_einleitung
   not_numbered: false
-  expand_sections: true
+  expand_sections: false
   sections:
   - title: Digitalisierung
-    url: /computertechnik/digitalisierung
+    url: /computertechnik/02_digitalisierung
+    expand_subsections: false
+    subsections:
+    - title: Test Subsection
+      url: /computertechnik/digitalisierung_sub
+    
   - title: Computer Hardware und Software
-    url: /computertechnik/computer
+    url: /computertechnik/03_computer
   - title: Netzweke
-    url: /computertechnik/netzwerke
+    url: /computertechnik/04_netzwerke
     
 # Second chapter
 - title: Python
   url: /python/einleitung
-  expand_sections: true
+  expand_sections: false
   sections:
   - title: Einführung in Jupyter
     url: /python/jupyter
@@ -70,7 +100,7 @@
 # Third chapter
 - title: Datenanalyse
   url: /datenanalyse/einleitung
-  expand_sections: true
+  expand_sections: false
   sections:
   - title: Datenstrukturen und Einlesen von Daten
     url: /datenanalyse/datenstrukturen
@@ -82,7 +112,7 @@
 # Fourth chapter
 - title: Numerik
   url: /numerik/einleitung
-  expand_section: true
+  expand_section: false
   sections:
   - title: Integrale und Ableitungen
     url: /numerik/integrale_ableitungen
