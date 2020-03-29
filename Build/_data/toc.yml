@@ -1,0 +1,133 @@
+# This file contains the order and numbering for all sections in the book.
+#
+# It is a sample TOC file to help you get started. Fill it out with entries
+# for your own content.
+#
+# Each entry has the following schema:
+#
+# - title: mytitle   # Title of chapter or section
+#   url: /myurl  # URL of section relative to the /content/ folder.
+#   sections:  # Contains a list of more entries that make up the chapter's sections
+#   not_numbered: true  # if the section shouldn't have a number in the sidebar
+#     (e.g. Introduction or appendices)
+#   expand_sections: true  # if you'd like the sections of this chapter to always
+#     be expanded in the sidebar.
+#   external: true  # Whether the URL is an external link or points to content in the book
+#
+# Below are some special values that trigger specific behavior:
+# - search: true  # Will provide a link to a search page
+# - divider: true  # Will insert a divider in the sidebar
+# - header: My Header  # Will insert a header with no link in the sidebar
+#
+# See the links below for an example.
+
+# Top-level page
+- title: Home
+  url: /intro
+  not_numbered: true
+
+# External link
+#- title: GitHub repository
+#  url: https://github.com/jupyter/jupyter-book
+#  external: true
+#  not_numbered: true
+
+# Adds a searchbar link
+#- title: Search
+#  search: true
+
+# Divider for meta-pages and content page
+- divider: true
+
+# Add a header and sample content section
+- header: Script
+
+# Zero chapter
+- title: Organisatorisches
+  url: /01_organisatorisches/01_organisatorisches
+  not_numbered: false
+  expand_sections: false
+  sections:
+  - title: Moodle
+    url: /01_organisatorisches/02_moodle
+    expand_subsections: false
+  - title: Vorlesungsskript
+    url: /01_organisatorisches/03_vorlesungsskript
+    expand_subsections: false
+  - title: Videoaufzeichung
+    url: /01_organisatorisches/04_videoaufzeichnung
+    expand_subsections: false
+  - title: JupyterLab
+    url: /01_organisatorisches/05_jupyterlab
+    expand_subsections: false
+  - title: Beispieldatensätze
+    url: /01_organisatorisches/06_beispieldatensaetze
+    expand_subsections: false
+  - title: Kontakt
+    url: /01_organisatorisches/99_kontakt
+    expand_subsections: false
+
+# First chapter
+- title: Einführung
+  url: /02_einfuehrung/01_uebersicht
+  not_numbered: false
+  expand_sections: false
+  sections:
+  - title: Begleitendes Experiment
+    url: /02_einfuehrung/02_experiment
+
+# First chapter
+- title: Computertechnik
+  url: /computertechnik/01_einleitung
+  not_numbered: false
+  expand_sections: false
+  sections:
+  - title: Digitalisierung
+    url: /computertechnik/02_digitalisierung
+    expand_subsections: false
+    subsections:
+    - title: Test Subsection
+      url: /computertechnik/digitalisierung_sub
+    
+  - title: Computer Hardware und Software
+    url: /computertechnik/03_computer
+  - title: Netzweke
+    url: /computertechnik/04_netzwerke
+    
+# Second chapter
+- title: Python
+  url: /python/einleitung
+  expand_sections: false
+  sections:
+  - title: Einführung in Jupyter
+    url: /python/jupyter
+  - title: Flusskontrolle
+    url: /python/flusskontrolle
+  - title: Funktionen und Module
+    url: /python/funktionen
+    
+# Third chapter
+- title: Datenanalyse
+  url: /datenanalyse/einleitung
+  expand_sections: false
+  sections:
+  - title: Datenstrukturen und Einlesen von Daten
+    url: /datenanalyse/datenstrukturen
+  - title: Daten graphisch darstellen
+    url: /datenanalyse/plotten
+  - title: Fitten und Optimieren
+    url: /datenanalyse/fitten  
+    
+# Fourth chapter
+- title: Numerik
+  url: /numerik/einleitung
+  expand_section: false
+  sections:
+  - title: Integrale und Ableitungen
+    url: /numerik/integrale_ableitungen
+  - title: Lösung gewöhhnlicher Differentialgleichungen
+    url: /numerik/ode
+  - title: Lösung partieller Differentialgleichungen
+    url: /numerik/pde
+    
+
