@@ -2,4 +2,4 @@
 .ipynb_checkpoints
 # Script/_build
 # Script/_site
-/Script/.sass-cache/
+.sass-cache
