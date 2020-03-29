@@ -40,7 +40,7 @@
 - divider: true
 
 # Add a header and sample content section
-- header: Script
+- header: Vorlesungsskript
 
 # Zero chapter
 - title: Organisatorisches
@@ -75,24 +75,49 @@
   sections:
   - title: Begleitendes Experiment
     url: /02_einfuehrung/02_experiment
-
+    expand_subsections: false
+  - title: Themenübersicht
+    url: /02_einfuehrung/03_themen
+    expand_subsections: false
+  - title: Aufbau der Vorlesung
+    url: /02_einfuehrung/04_vorlesung
+    expand_subsections: false
+    
 # First chapter
 - title: Computertechnik
-  url: /computertechnik/01_einleitung
+  url: /03_computertechnik/00_einleitung
   not_numbered: false
   expand_sections: false
+
   sections:
   - title: Digitalisierung
-    url: /computertechnik/02_digitalisierung
+    url: /03_computertechnik/01_digitalisierung
     expand_subsections: false
     subsections:
-    - title: Test Subsection
-      url: /computertechnik/digitalisierung_sub
-    
-  - title: Computer Hardware und Software
-    url: /computertechnik/03_computer
+    - title: Analoge Informationen
+      url: /03_computertechnik/011_analoge_informationen
+    - title: Digitale Informationen
+      url: /03_computertechnik/012_digitale_informationen
+    - title: Digitale Zahlendarstellung
+      url: /03_computertechnik/013_zahlendarstellung
+      
+  - title: Hardware
+    url: /03_computertechnik/02_hardware
+    expand_subsections: false
+    subsections:
+    - title: Geschichtliche Meilensteine
+      url: /03_computertechnik/021_geschichte
+    - title: Schaltkreise
+      url: /03_computertechnik/022_schaltkreise
+    - title: Funktionsweise Computer
+      url: /03_computertechnik/023_funktionsweise_computer
+
+
+
+  - title: Software
+    url: /03_computertechnik/03_software
   - title: Netzweke
-    url: /computertechnik/04_netzwerke
+    url: /03_computertechnik/04_netzwerke
     
 # Second chapter
 - title: Python
