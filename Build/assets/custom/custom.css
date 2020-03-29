@@ -3,3 +3,9 @@
     margin: 5px 2px 2px 0px !important;
     float: left !important;
 }
+
+video {
+    text-align: center;
+    width:100% !important;
+    margin: auto;
+}
