@@ -22,7 +22,7 @@ email: YOUR EMAIL
 description: >-
   Dieses Buch soll als Skript zur Ingeneursinformatik Verlesung 2020 an der Bergischen Universität Wuppertal dienen.
 
-baseurl: /Vorlesung_Ingenieurinformatik/
+baseurl: 
 url: https://lu-kas.github.io
 
 
