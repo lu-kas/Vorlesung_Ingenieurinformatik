@@ -16,3 +16,4 @@ Browser URL: 0.0.0.0:4000
 * Netzwerke in Computertechnik, offen welche und in welcher Tiefe
 * Inhalt der Datenanalyse Vorlesung
 * Einsatz von Parallelrechnern, insbesondere JURECA
+* Handübungen zu HW / SW / Algorithmen, vllt. nützliche Techniken üben lassen, z.B. VPN, Netzwerke (Internet), Umgang mit Dateien, Hardware (CPU/RAM) nachschlagen?
