@@ -82,8 +82,11 @@
   - title: Aufbau der Vorlesung
     url: /02_einfuehrung/04_vorlesung
     expand_subsections: false
-    
-# First chapter
+
+########################################
+########################################
+# Kapitel COMPUTERTECHNIK
+
 - title: Computertechnik
   url: /03_computertechnik/00_einleitung
   not_numbered: false
@@ -112,13 +115,18 @@
     - title: Funktionsweise Computer
       url: /03_computertechnik/023_funktionsweise_computer
 
-
-
   - title: Software
     url: /03_computertechnik/03_software
-  - title: Netzweke
-    url: /03_computertechnik/04_netzwerke
+
+  - title: Algorithmen
+    url: /03_computertechnik/04_algorithmen
+
+  - title: Zusammenfassung
+    url: /03_computertechnik/98_zusammenfassung
     
+  - title: Übungen
+    url: /03_computertechnik/99_uebungen
+
 # Second chapter
 - title: Python
   url: /python/einleitung
