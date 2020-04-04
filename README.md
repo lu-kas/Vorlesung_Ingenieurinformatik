@@ -20,3 +20,4 @@ Browser URL: 0.0.0.0:4000
 * Automatische Einbingund von übungsaufgaben
 * umstrukturierung orga / skript / aufgaben 
 * aufgaben vs. beispiele?
+* use nbconvert to auto-remove/add solutions for exercises
