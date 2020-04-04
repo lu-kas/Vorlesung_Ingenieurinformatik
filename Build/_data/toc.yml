@@ -105,7 +105,7 @@
       url: /Script/03_computertechnik/012_digitale_informationen
     - title: Digitale Zahlendarstellung
       url: /Script/03_computertechnik/013_zahlendarstellung
-      
+
   - title: Hardware
     url: /Script/03_computertechnik/02_hardware
     expand_subsections: false
@@ -125,7 +125,7 @@
 
   - title: Zusammenfassung
     url: /Script/03_computertechnik/98_zusammenfassung
-    
+
   - title: Übungen
     url: /Script/03_computertechnik/99_uebungen
 
@@ -140,7 +140,7 @@
     url: /Script/python/flusskontrolle
   - title: Funktionen und Module
     url: /Script/python/funktionen
-    
+
 # Third chapter
 - title: Datenanalyse
   url: /Script/datenanalyse/einleitung
@@ -151,8 +151,8 @@
   - title: Daten graphisch darstellen
     url: /Script/datenanalyse/plotten
   - title: Fitten und Optimieren
-    url: /Script/datenanalyse/fitten  
-    
+    url: /Script/datenanalyse/fitten
+
 # Fourth chapter
 - title: Numerik
   url: /Script/numerik/einleitung
@@ -179,4 +179,4 @@
   expand_section: false
   sections:
   - title: Aufgabe A
-    url: /Exercises/03_computertechnik/01_aufgabe_A/aufgabe_a
+    url: /Exercises/03_computertechnik/01_aufgabe_A/aufgabe_A
