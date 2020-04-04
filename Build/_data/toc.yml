@@ -23,7 +23,7 @@
 
 # Top-level page
 - title: Home
-  url: /intro
+  url: /Script/intro
   not_numbered: true
 
 # External link
@@ -36,131 +36,147 @@
 #- title: Search
 #  search: true
 
+# Zero chapter
+- title: Organisatorisches
+  url: /Script/01_organisatorisches/01_organisatorisches
+  not_numbered: true
+  expand_sections: false
+  sections:
+  - title: Moodle
+    url: /Script/01_organisatorisches/02_moodle
+    expand_subsections: false
+  - title: Vorlesungsskript
+    url: /Script/01_organisatorisches/03_vorlesungsskript
+    expand_subsections: false
+  - title: Videoaufzeichung
+    url: /Script/01_organisatorisches/04_videoaufzeichnung
+    expand_subsections: false
+  - title: JupyterLab
+    url: /Script/01_organisatorisches/05_jupyterlab
+    expand_subsections: false
+  - title: Beispieldatensätze
+    url: /Script/01_organisatorisches/06_beispieldatensaetze
+    expand_subsections: false
+  - title: Kontakt
+    url: /Script/01_organisatorisches/99_kontakt
+    expand_subsections: false
+
+# First chapter
+- title: Einführung
+  url: /Script/02_einfuehrung/01_uebersicht
+  not_numbered: true
+  expand_sections: false
+  sections:
+  - title: Begleitendes Experiment
+    url: /Script/02_einfuehrung/02_experiment
+    expand_subsections: false
+  - title: Themenübersicht
+    url: /Script/02_einfuehrung/03_themen
+    expand_subsections: false
+  - title: Aufbau der Vorlesung
+    url: /Script/02_einfuehrung/04_vorlesung
+    expand_subsections: false
+
 # Divider for meta-pages and content page
 - divider: true
 
 # Add a header and sample content section
 - header: Vorlesungsskript
 
-# Zero chapter
-- title: Organisatorisches
-  url: /01_organisatorisches/01_organisatorisches
-  not_numbered: false
-  expand_sections: false
-  sections:
-  - title: Moodle
-    url: /01_organisatorisches/02_moodle
-    expand_subsections: false
-  - title: Vorlesungsskript
-    url: /01_organisatorisches/03_vorlesungsskript
-    expand_subsections: false
-  - title: Videoaufzeichung
-    url: /01_organisatorisches/04_videoaufzeichnung
-    expand_subsections: false
-  - title: JupyterLab
-    url: /01_organisatorisches/05_jupyterlab
-    expand_subsections: false
-  - title: Beispieldatensätze
-    url: /01_organisatorisches/06_beispieldatensaetze
-    expand_subsections: false
-  - title: Kontakt
-    url: /01_organisatorisches/99_kontakt
-    expand_subsections: false
 
-# First chapter
-- title: Einführung
-  url: /02_einfuehrung/01_uebersicht
-  not_numbered: false
-  expand_sections: false
-  sections:
-  - title: Begleitendes Experiment
-    url: /02_einfuehrung/02_experiment
-    expand_subsections: false
-  - title: Themenübersicht
-    url: /02_einfuehrung/03_themen
-    expand_subsections: false
-  - title: Aufbau der Vorlesung
-    url: /02_einfuehrung/04_vorlesung
-    expand_subsections: false
 
 ########################################
 ########################################
 # Kapitel COMPUTERTECHNIK
 
 - title: Computertechnik
-  url: /03_computertechnik/00_einleitung
+  url: /Script/03_computertechnik/00_einleitung
   not_numbered: false
   expand_sections: false
 
   sections:
   - title: Digitalisierung
-    url: /03_computertechnik/01_digitalisierung
+    url: /Script/03_computertechnik/01_digitalisierung
     expand_subsections: false
     subsections:
     - title: Analoge Informationen
-      url: /03_computertechnik/011_analoge_informationen
+      url: /Script/03_computertechnik/011_analoge_informationen
     - title: Digitale Informationen
-      url: /03_computertechnik/012_digitale_informationen
+      url: /Script/03_computertechnik/012_digitale_informationen
     - title: Digitale Zahlendarstellung
-      url: /03_computertechnik/013_zahlendarstellung
+      url: /Script/03_computertechnik/013_zahlendarstellung
       
   - title: Hardware
-    url: /03_computertechnik/02_hardware
+    url: /Script/03_computertechnik/02_hardware
     expand_subsections: false
     subsections:
     - title: Geschichtliche Meilensteine
-      url: /03_computertechnik/021_geschichte
+      url: /Script/03_computertechnik/021_geschichte
     - title: Schaltkreise
-      url: /03_computertechnik/022_schaltkreise
+      url: /Script/03_computertechnik/022_schaltkreise
     - title: Funktionsweise Computer
-      url: /03_computertechnik/023_funktionsweise_computer
+      url: /Script/03_computertechnik/023_funktionsweise_computer
 
   - title: Software
-    url: /03_computertechnik/03_software
+    url: /Script/03_computertechnik/03_software
 
   - title: Algorithmen
-    url: /03_computertechnik/04_algorithmen
+    url: /Script/03_computertechnik/04_algorithmen
 
   - title: Zusammenfassung
-    url: /03_computertechnik/98_zusammenfassung
+    url: /Script/03_computertechnik/98_zusammenfassung
     
   - title: Übungen
-    url: /03_computertechnik/99_uebungen
+    url: /Script/03_computertechnik/99_uebungen
 
 # Second chapter
 - title: Python
-  url: /python/einleitung
+  url: /Script/python/einleitung
   expand_sections: false
   sections:
   - title: Einführung in Jupyter
-    url: /python/jupyter
+    url: /Script/python/jupyter
   - title: Flusskontrolle
-    url: /python/flusskontrolle
+    url: /Script/python/flusskontrolle
   - title: Funktionen und Module
-    url: /python/funktionen
+    url: /Script/python/funktionen
     
 # Third chapter
 - title: Datenanalyse
-  url: /datenanalyse/einleitung
+  url: /Script/datenanalyse/einleitung
   expand_sections: false
   sections:
   - title: Datenstrukturen und Einlesen von Daten
-    url: /datenanalyse/datenstrukturen
+    url: /Script/datenanalyse/datenstrukturen
   - title: Daten graphisch darstellen
-    url: /datenanalyse/plotten
+    url: /Script/datenanalyse/plotten
   - title: Fitten und Optimieren
-    url: /datenanalyse/fitten  
+    url: /Script/datenanalyse/fitten  
     
 # Fourth chapter
 - title: Numerik
-  url: /numerik/einleitung
+  url: /Script/numerik/einleitung
   expand_section: false
   sections:
   - title: Integrale und Ableitungen
-    url: /numerik/integrale_ableitungen
+    url: /Script/numerik/integrale_ableitungen
   - title: Lösung gewöhhnlicher Differentialgleichungen
-    url: /numerik/ode
+    url: /Script/numerik/ode
   - title: Lösung partieller Differentialgleichungen
-    url: /numerik/pde
-    
+    url: /Script/numerik/pde
 
+
+# Divider for meta-pages and content page
+- divider: true
+
+# Add a header and sample content section
+- header: Aufgabensammlung
+
+# Aufgabensammlung
+- title: Computertechnik
+  url: Exercises/03_computertechnik/uebersicht
+  not_numbered: true
+  expand_section: false
+  sections:
+  - title: Aufgabe A
+    url: /Exercises/03_computertechnik/01_aufgabe_A/aufgabe_a

@@ -17,3 +17,6 @@ Browser URL: 0.0.0.0:4000
 * Inhalt der Datenanalyse Vorlesung
 * Einsatz von Parallelrechnern, insbesondere JURECA
 * Handübungen zu HW / SW / Algorithmen, vllt. nützliche Techniken üben lassen, z.B. VPN, Netzwerke (Internet), Umgang mit Dateien, Hardware (CPU/RAM) nachschlagen?
+* Automatische Einbingund von übungsaufgaben
+* umstrukturierung orga / skript / aufgaben 
+* aufgaben vs. beispiele?
