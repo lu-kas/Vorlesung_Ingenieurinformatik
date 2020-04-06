@@ -23,3 +23,4 @@ Browser URL: 0.0.0.0:4000
 * Computertechnik vs. Computer?
 * CC lizenz setzen
 * adopt math font to text (sans serif)
+* add how-to-contribute (jupyter(-lab) + jupyter-book + this repo)
