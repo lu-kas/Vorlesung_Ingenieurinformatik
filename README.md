@@ -22,3 +22,4 @@ Browser URL: 0.0.0.0:4000
 * use nbconvert to auto-remove/add solutions for exercises
 * Computertechnik vs. Computer?
 * CC lizenz setzen
+* adopt math font to text (sans serif)
