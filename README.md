@@ -16,8 +16,10 @@ Browser URL: 0.0.0.0:4000
 * Netzwerke in Computertechnik, offen welche und in welcher Tiefe
 * Inhalt der Datenanalyse Vorlesung
 * Einsatz von Parallelrechnern, insbesondere JURECA
-* Handübungen zu HW / SW / Algorithmen, vllt. nützliche Techniken üben lassen, z.B. VPN, Netzwerke (Internet), Umgang mit Dateien, Hardware (CPU/RAM) nachschlagen?
+* Handübungen zu Kapitel 1:  HW / SW / Algorithmen, vllt. nützliche Techniken üben lassen, z.B. VPN, Netzwerke (Internet), Umgang mit Dateien, Hardware (CPU/RAM) nachschlagen, Bandbreite des eigenen Anschlusses testen / verstehen, http vs https, sciebo nutzen, passworte generieren und verwalten, Algorithmen von hand rechnen, Größe einer vorgegebene Textdatei (z.b. ein frei verfügbares (klassisches) Buch) nachvollziehen, welche Zahlenbereiche und Genauigkeiten für andere Zahlen, was passiert wenn eine große und eine sehr kleine zahl addiert werden (kann man das auf einem taschenrechner ausprobieren, irgendwo online im netz?)?
 * Automatische Einbingund von übungsaufgaben
 * umstrukturierung orga / skript / aufgaben 
 * aufgaben vs. beispiele?
 * use nbconvert to auto-remove/add solutions for exercises
+* Computertechnik vs. Computer?
+* CC lizenz setzen

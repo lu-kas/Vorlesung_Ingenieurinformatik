@@ -89,45 +89,45 @@
 ########################################
 # Kapitel COMPUTERTECHNIK
 
-- title: Computertechnik
-  url: /Script/03_computertechnik/00_einleitung
+- title: Computer
+  url: /Script/01_computer/00_einleitung
   not_numbered: false
   expand_sections: false
 
   sections:
   - title: Digitalisierung
-    url: /Script/03_computertechnik/01_digitalisierung
+    url: /Script/01_computer/01_digitalisierung
     expand_subsections: false
     subsections:
     - title: Analoge Informationen
-      url: /Script/03_computertechnik/011_analoge_informationen
+      url: /Script/01_computer/011_analoge_informationen
     - title: Digitale Informationen
-      url: /Script/03_computertechnik/012_digitale_informationen
+      url: /Script/01_computer/012_digitale_informationen
     - title: Digitale Zahlendarstellung
-      url: /Script/03_computertechnik/013_zahlendarstellung
+      url: /Script/01_computer/013_zahlendarstellung
+
+  - title: Algorithmen
+    url: /Script/01_computer/02_algorithmen
 
   - title: Hardware
-    url: /Script/03_computertechnik/02_hardware
+    url: /Script/01_computer/03_hardware
     expand_subsections: false
     subsections:
     - title: Geschichtliche Meilensteine
-      url: /Script/03_computertechnik/021_geschichte
+      url: /Script/01_computer/031_geschichte
     - title: Schaltkreise
-      url: /Script/03_computertechnik/022_schaltkreise
+      url: /Script/01_computer/032_schaltkreise
     - title: Funktionsweise Computer
-      url: /Script/03_computertechnik/023_funktionsweise_computer
+      url: /Script/01_computer/033_funktionsweise_computer
 
   - title: Software
-    url: /Script/03_computertechnik/03_software
-
-  - title: Algorithmen
-    url: /Script/03_computertechnik/04_algorithmen
+    url: /Script/01_computer/04_software
 
   - title: Zusammenfassung
-    url: /Script/03_computertechnik/98_zusammenfassung
+    url: /Script/01_computer/98_zusammenfassung
 
   - title: Übungen
-    url: /Script/03_computertechnik/99_uebungen
+    url: /Script/01_computer/99_uebungen
 
 # Second chapter
 - title: Python
