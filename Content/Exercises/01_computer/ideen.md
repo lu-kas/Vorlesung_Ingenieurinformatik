@@ -9,7 +9,7 @@ Folgende Reihenfolge hat keine Bedeutung, ist nur eine erste Sammlung:
 1. Netzwerkbandbreite: Wie kann ich es messen (up/down)? Einfache Berechnungen zur Dauer des Transfers
 1. http vs https
 1. Passworter generieren und verwalten
-1. Dateigröße einer Textdatei (z.b. ein frei verfügbares (klassisches) Buch) verstehen
+1. Dateigröße einer Textdatei (z.b. ein frei verfügbares (klassisches) Buch) verstehen, ASCII Tabelle / Darstellung von Zeichen, vergleich mit Word / PDF
 1. Algorithmen von Hand 'ausführen': Zwei einfache Beispiele. Z.B. schriftliches Dividieren, Maximum suchen, Zahlen sortieren, Nullstelle finden, kleinster gemeinsamer Nenner, Entwicklung von sin/cos
 1. Kleine und Große zahl addieren (kann man das auf einem taschenrechner ausprobieren, irgendwo online im netz?)
 1. Zahlenbereiche und Genauigkeiten für digitale Darstellung bestimmen (single / double / ...)
