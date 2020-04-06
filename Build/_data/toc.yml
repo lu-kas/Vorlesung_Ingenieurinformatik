@@ -174,9 +174,9 @@
 
 # Aufgabensammlung
 - title: Computertechnik
-  url: Exercises/03_computertechnik/uebersicht
+  url: Exercises/01_computer/uebersicht
   not_numbered: true
   expand_section: false
   sections:
   - title: Aufgabe A
-    url: /Exercises/03_computertechnik/01_aufgabe_A/aufgabe_A
+    url: /Exercises/01_computer/01_aufgabe_A/aufgabe_A
