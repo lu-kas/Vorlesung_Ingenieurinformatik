@@ -1,13 +1,13 @@
-all: zahlendarstellung_integer32.png zahlendarstellung_integer08.png
+FILES = zahlendarstellung_integer32.png \
+	zahlendarstellung_integer08.png \
+	zahlendarstellung_integer08_5.png \
+	zahlendarstellung_integer08_107.png
 
-zahlendarstellung_integer32.png: zahlendarstellung_integer32.tex
-	pdflatex -shell-escape zahlendarstellung_integer32.tex
-	rm zahlendarstellung_integer32.aux zahlendarstellung_integer32.log
+all: $(FILES)
 
-zahlendarstellung_integer08.png: zahlendarstellung_integer08.tex
-	pdflatex -shell-escape zahlendarstellung_integer08.tex
-	rm zahlendarstellung_integer08.aux zahlendarstellung_integer08.log
-
+%.png: %.tex
+	pdflatex -shell-escape $<
+	rm $(basename $<).aux $(basename $<).log
 
 clean:
-	rm zahlendarstellung_integer32.png zahlendarstellung_integer08.png
+	rm $(FILES)
