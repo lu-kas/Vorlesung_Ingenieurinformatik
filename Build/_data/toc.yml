@@ -99,12 +99,9 @@
     url: /Script/01_computer/01_digitalisierung
     expand_subsections: false
     subsections:
-#    - title: Analoge Informationen
     - url: /Script/01_computer/011_analoge_informationen
-    - title: Digitale Informationen
-      url: /Script/01_computer/012_digitale_informationen
-    - title: Digitale Zahlendarstellung
-      url: /Script/01_computer/013_zahlendarstellung
+    - url: /Script/01_computer/012_digitale_informationen
+    - url: /Script/01_computer/013_zahlendarstellung
 
   - title: Algorithmen
     url: /Script/01_computer/02_algorithmen
