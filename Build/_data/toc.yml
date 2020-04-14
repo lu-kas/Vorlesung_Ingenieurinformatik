@@ -106,61 +106,61 @@
   - title: Algorithmen
     url: /Script/01_computer/02_algorithmen
 
-  - title: Hardware
-    url: /Script/01_computer/03_hardware
-    expand_subsections: false
-    subsections:
-    - title: Geschichtliche Meilensteine
-      url: /Script/01_computer/031_geschichte
-    - title: Schaltkreise
-      url: /Script/01_computer/032_schaltkreise
-    - title: Funktionsweise Computer
-      url: /Script/01_computer/033_funktionsweise_computer
+#   - title: Hardware
+#     url: /Script/01_computer/03_hardware
+#     expand_subsections: false
+#     subsections:
+#     - title: Geschichtliche Meilensteine
+#       url: /Script/01_computer/031_geschichte
+#     - title: Schaltkreise
+#       url: /Script/01_computer/032_schaltkreise
+#     - title: Funktionsweise Computer
+#       url: /Script/01_computer/033_funktionsweise_computer
 
-  - title: Software
-    url: /Script/01_computer/04_software
+#   - title: Software
+#     url: /Script/01_computer/04_software
 
-  - title: Zusammenfassung
-    url: /Script/01_computer/98_zusammenfassung
+#   - title: Zusammenfassung
+#     url: /Script/01_computer/98_zusammenfassung
 
   - title: Übungen
     url: /Script/01_computer/99_uebungen
 
-# Second chapter
-- title: Python
-  url: /Script/python/einleitung
-  expand_sections: false
-  sections:
-  - title: Einführung in Jupyter
-    url: /Script/python/jupyter
-  - title: Flusskontrolle
-    url: /Script/python/flusskontrolle
-  - title: Funktionen und Module
-    url: /Script/python/funktionen
+# # Second chapter
+# - title: Python
+#   url: /Script/python/einleitung
+#   expand_sections: false
+#   sections:
+#   - title: Einführung in Jupyter
+#     url: /Script/python/jupyter
+#   - title: Flusskontrolle
+#     url: /Script/python/flusskontrolle
+#   - title: Funktionen und Module
+#     url: /Script/python/funktionen
 
-# Third chapter
-- title: Datenanalyse
-  url: /Script/datenanalyse/einleitung
-  expand_sections: false
-  sections:
-  - title: Datenstrukturen und Einlesen von Daten
-    url: /Script/datenanalyse/datenstrukturen
-  - title: Daten graphisch darstellen
-    url: /Script/datenanalyse/plotten
-  - title: Fitten und Optimieren
-    url: /Script/datenanalyse/fitten
+# # Third chapter
+# - title: Datenanalyse
+#   url: /Script/datenanalyse/einleitung
+#   expand_sections: false
+#   sections:
+#   - title: Datenstrukturen und Einlesen von Daten
+#     url: /Script/datenanalyse/datenstrukturen
+#   - title: Daten graphisch darstellen
+#     url: /Script/datenanalyse/plotten
+#   - title: Fitten und Optimieren
+#     url: /Script/datenanalyse/fitten
 
-# Fourth chapter
-- title: Numerik
-  url: /Script/numerik/einleitung
-  expand_section: false
-  sections:
-  - title: Integrale und Ableitungen
-    url: /Script/numerik/integrale_ableitungen
-  - title: Lösung gewöhhnlicher Differentialgleichungen
-    url: /Script/numerik/ode
-  - title: Lösung partieller Differentialgleichungen
-    url: /Script/numerik/pde
+# # Fourth chapter
+# - title: Numerik
+#   url: /Script/numerik/einleitung
+#   expand_section: false
+#   sections:
+#   - title: Integrale und Ableitungen
+#     url: /Script/numerik/integrale_ableitungen
+#   - title: Lösung gewöhhnlicher Differentialgleichungen
+#     url: /Script/numerik/ode
+#   - title: Lösung partieller Differentialgleichungen
+#     url: /Script/numerik/pde
 
 
 # Divider for meta-pages and content page
@@ -170,8 +170,7 @@
 - header: Aufgabensammlung
 
 # Aufgabensammlung
-- title: Computertechnik
-  url: Exercises/01_computer/uebersicht
+- url: Exercises/01_computer/uebersicht
   not_numbered: true
   expand_section: false
   sections:
