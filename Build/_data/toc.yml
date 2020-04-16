@@ -174,5 +174,5 @@
   not_numbered: true
   expand_section: false
   sections:
-  - title: Aufgabe A
-    url: /Exercises/01_computer/01_aufgabe_A/aufgabe_A
+  - title: Darstellung von Zeichen
+    url: /Exercises/01_computer/02_zeichendarstellung/zeichendarstellung
