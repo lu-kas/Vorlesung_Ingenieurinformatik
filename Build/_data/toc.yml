@@ -174,5 +174,5 @@
   not_numbered: true
   expand_section: false
   sections:
-  - title: Darstellung von Zeichen
+  - title: 1.2 – Darstellung von Zeichen
     url: /Exercises/01_computer/02_zeichendarstellung/zeichendarstellung
