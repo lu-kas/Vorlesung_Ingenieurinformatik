@@ -176,3 +176,6 @@
   sections:
   - title: 1.1 – Zahlendarstellung
     url: /Exercises/01_computer/01_zahlendarstellung/zahlendarstellung
+  - title: 1.2 – Darstellung von Zeichen
+    url: /Exercises/01_computer/02_zeichendarstellung/zeichendarstellung
+
