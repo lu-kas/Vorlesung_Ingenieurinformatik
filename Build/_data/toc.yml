@@ -174,7 +174,5 @@
   not_numbered: true
   expand_section: false
   sections:
-  - title: Aufgabe A
-    url: /Exercises/01_computer/01_aufgabe_A/aufgabe_A
-    subsections:
-    - url: /Exercises/01_computer/01_aufgabe_zahlendarstellung/aufgabe_zahlendarstellung
+  - title: 1.1 – Zahlendarstellung
+    url: /Exercises/01_computer/01_zahlendarstellung/zahlendarstellung
