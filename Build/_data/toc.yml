@@ -23,7 +23,7 @@
 
 # Top-level page
 - title: Home
-  url: /Script/intro
+  url: /home
   not_numbered: true
 
 # External link
@@ -37,44 +37,44 @@
 #  search: true
 
 # Zero chapter
-- title: Organisatorisches
-  url: /Script/01_organisatorisches/01_organisatorisches
+- title: Organisatorisches SoSe 2020
+  url: /Overview/01_organisatorisches/01_organisatorisches
   not_numbered: true
   expand_sections: false
   sections:
   - title: Moodle
-    url: /Script/01_organisatorisches/02_moodle
+    url: /Overview/01_organisatorisches/02_moodle
     expand_subsections: false
   - title: Vorlesungsskript
-    url: /Script/01_organisatorisches/03_vorlesungsskript
+    url: /Overview/01_organisatorisches/03_vorlesungsskript
     expand_subsections: false
   - title: Videoaufzeichung
-    url: /Script/01_organisatorisches/04_videoaufzeichnung
+    url: /Overview/01_organisatorisches/04_videoaufzeichnung
     expand_subsections: false
   - title: JupyterLab
-    url: /Script/01_organisatorisches/05_jupyterlab
+    url: /Overview/01_organisatorisches/05_jupyterlab
     expand_subsections: false
   - title: Beispieldatensätze
-    url: /Script/01_organisatorisches/06_beispieldatensaetze
+    url: /Overview/01_organisatorisches/06_beispieldatensaetze
     expand_subsections: false
   - title: Kontakt
-    url: /Script/01_organisatorisches/99_kontakt
+    url: /Overview/01_organisatorisches/99_kontakt
     expand_subsections: false
 
 # First chapter
 - title: Einführung
-  url: /Script/02_einfuehrung/01_uebersicht
+  url: /Overview/02_einfuehrung/01_uebersicht
   not_numbered: true
   expand_sections: false
   sections:
   - title: Begleitendes Experiment
-    url: /Script/02_einfuehrung/02_experiment
+    url: /Overview/02_einfuehrung/02_experiment
     expand_subsections: false
   - title: Themenübersicht
-    url: /Script/02_einfuehrung/03_themen
+    url: /Overview/02_einfuehrung/03_themen
     expand_subsections: false
   - title: Aufbau der Vorlesung
-    url: /Script/02_einfuehrung/04_vorlesung
+    url: /Overview/02_einfuehrung/04_vorlesung
     expand_subsections: false
 
 # Divider for meta-pages and content page
