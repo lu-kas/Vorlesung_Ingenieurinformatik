@@ -16,11 +16,11 @@
 
 #######################################################################################
 # Jekyll site settings
-title: Ingenieurinformatik 2020
+title: Ingenieurinformatik
 author: Prof. Dr. Lukas Arnold
-email: YOUR EMAIL
+email: arnold@uni-wuppertal.de
 description: >-
-  Dieses Buch soll als Skript zur Ingeneursinformatik Verlesung 2020 an der Bergischen Universität Wuppertal dienen.
+  Dieses Buch soll als Skript zur Vorlesung 'Ingeneursinformatik' an der Bergischen Universität Wuppertal dienen.
 
 baseurl:
 url: https://lu-kas.github.io
