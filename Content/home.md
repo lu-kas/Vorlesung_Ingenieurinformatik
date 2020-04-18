@@ -1,5 +1,3 @@
-# Vorlesungsskript und Übungen zur Veranstaltung "Ingenieurinformatik"
-
 ## Allgemeine Infos
 
 Die Vorlesung *Ingenieurinformatik* an der Bergischen Universität Wuppertal wurde vom im Jahr 2019 gebildeten Lehrstuhl [*Computational Civil Engineering (CCE)*](https://cce.uni-wuppertal.de/) übernommen. Der CCE-Lehrstuhl beschäftigt sich hauptsächlich mit der Erforschung und Entwicklung neuer computergestützter Modelle. Im Zentrum der Anwendung steht die Brand- und Rauchausbreitung in Gebäuden.  
@@ -10,14 +8,16 @@ Jedoch, dieses Skript ist sehr kurz gefasst und wird es auch so bleiben. Viele d
 
 Da sich das Skript in der Entwicklung befinden freuen wir uns über konstruktive Anregungen und Ihr Feedback. So können Sie Ihre Nachfolger unterstützen.
 
-**Alle organisatorischen Informationen zum Ablauf finden Sie auf der [CCE-Webseite zur Ingenieurinformatik](https://cce.uni-wuppertal.de/index.php?id=4178&L=0)** 
-
+**Alle organisatorischen Informationen zum Ablauf finden Sie auf der [CCE-Webseite zur Ingenieurinformatik](https://cce.uni-wuppertal.de/index.php?id=4178&L=0).** 
 
 ## Inhaltsübersicht
 
 * Geplant ist, dass dieses Skript nicht nur die Vorlesung *Ingenieurinformatik* sondern auch andere mit dieser Vorlesung verknüpfte Inhalte, wie z.B. *Datenanalyse mit Python*, enthält. Im Laufe der Vorlesung werden wir die für Sie relevanten Inhalte entsprechend bekannt geben. Im Sommersemester 2020 werden voraussichtlich aber noch keine weiteren Inhalte eingebunden sein.
 * Das Skript enthält auch Übungsaufgaben für alle Kapitel, mit und ohne Lösungswege, aber immer mit einem Ergebnis bzw. der Möglichkeit der Validierung Ihrer Lösung.
 
+## Themenübersicht
+
+![Themen](./Overview/02_einfuehrung/bilder/uebersicht_themen.png)
 
 ## Mitwirkende
 
@@ -26,6 +26,7 @@ An der Ausarbeitung des Skripts und der Übungen sind beteiligt (in alphabetisch
 * Lukas Arnold
 * Alexander Belt
 * Max Böhler
+* Marc Fehling
 * Sven Orzel
 * My Linh Würzburger
 
