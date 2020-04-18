@@ -37,45 +37,45 @@
 #  search: true
 
 # Zero chapter
-- title: Organisatorisches SoSe 2020
-  url: /Overview/01_organisatorisches/01_organisatorisches
-  not_numbered: true
-  expand_sections: false
-  sections:
-  - title: Moodle
-    url: /Overview/01_organisatorisches/02_moodle
-    expand_subsections: false
-  - title: Vorlesungsskript
-    url: /Overview/01_organisatorisches/03_vorlesungsskript
-    expand_subsections: false
-  - title: Videoaufzeichung
-    url: /Overview/01_organisatorisches/04_videoaufzeichnung
-    expand_subsections: false
-  - title: JupyterLab
-    url: /Overview/01_organisatorisches/05_jupyterlab
-    expand_subsections: false
-  - title: Beispieldatensätze
-    url: /Overview/01_organisatorisches/06_beispieldatensaetze
-    expand_subsections: false
-  - title: Kontakt
-    url: /Overview/01_organisatorisches/99_kontakt
-    expand_subsections: false
+# - title: Organisatorisches SoSe 2020
+#   url: /Overview/01_organisatorisches/01_organisatorisches
+#   not_numbered: true
+#   expand_sections: false
+#   sections:
+#   - title: Moodle
+#     url: /Overview/01_organisatorisches/02_moodle
+#     expand_subsections: false
+#   - title: Vorlesungsskript
+#     url: /Overview/01_organisatorisches/03_vorlesungsskript
+#     expand_subsections: false
+#   - title: Videoaufzeichung
+#     url: /Overview/01_organisatorisches/04_videoaufzeichnung
+#     expand_subsections: false
+#   - title: JupyterLab
+#     url: /Overview/01_organisatorisches/05_jupyterlab
+#     expand_subsections: false
+#   - title: Beispieldatensätze
+#     url: /Overview/01_organisatorisches/06_beispieldatensaetze
+#     expand_subsections: false
+#   - title: Kontakt
+#     url: /Overview/01_organisatorisches/99_kontakt
+#     expand_subsections: false
 
-# First chapter
-- title: Einführung
-  url: /Overview/02_einfuehrung/01_uebersicht
-  not_numbered: true
-  expand_sections: false
-  sections:
-  - title: Begleitendes Experiment
-    url: /Overview/02_einfuehrung/02_experiment
-    expand_subsections: false
-  - title: Themenübersicht
-    url: /Overview/02_einfuehrung/03_themen
-    expand_subsections: false
-  - title: Aufbau der Vorlesung
-    url: /Overview/02_einfuehrung/04_vorlesung
-    expand_subsections: false
+# # First chapter
+# - title: Einführung
+#   url: /Overview/02_einfuehrung/01_uebersicht
+#   not_numbered: true
+#   expand_sections: false
+#   sections:
+#   - title: Begleitendes Experiment
+#     url: /Overview/02_einfuehrung/02_experiment
+#     expand_subsections: false
+#   - title: Themenübersicht
+#     url: /Overview/02_einfuehrung/03_themen
+#     expand_subsections: false
+#   - title: Aufbau der Vorlesung
+#     url: /Overview/02_einfuehrung/04_vorlesung
+#     expand_subsections: false
 
 # Divider for meta-pages and content page
 - divider: true
@@ -103,8 +103,8 @@
     - url: /Script/01_computer/012_digitale_informationen
     - url: /Script/01_computer/013_zahlendarstellung
 
-  - title: Algorithmen
-    url: /Script/01_computer/02_algorithmen
+#   - title: Algorithmen
+#     url: /Script/01_computer/02_algorithmen
 
 #   - title: Hardware
 #     url: /Script/01_computer/03_hardware
@@ -123,8 +123,8 @@
 #   - title: Zusammenfassung
 #     url: /Script/01_computer/98_zusammenfassung
 
-  - title: Übungen
-    url: /Script/01_computer/99_uebungen
+#   - title: Übungen
+#     url: /Script/01_computer/99_uebungen
 
 # # Second chapter
 # - title: Python

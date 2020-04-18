@@ -2,7 +2,7 @@
 
 ## Allgemeine Infos
 
-Die Vorlesung *Ingenieurinformatik* an der Bergischen Universität Wuppertal wurde vom im Jahr 2019 gebildeten Lehrstuhl [*Computational Civil Engineering (CCE)*](cce.uni-wuppertal.de/) übernommen. Der CCE-Lehrstuhl beschäftigt sich hauptsächlich mit der Erforschung und Entwicklung neuer computergestützter Modelle. Im Zentrum der Anwendung steht die Brand- und Rauchausbreitung in Gebäuden.  
+Die Vorlesung *Ingenieurinformatik* an der Bergischen Universität Wuppertal wurde vom im Jahr 2019 gebildeten Lehrstuhl [*Computational Civil Engineering (CCE)*](https://cce.uni-wuppertal.de/) übernommen. Der CCE-Lehrstuhl beschäftigt sich hauptsächlich mit der Erforschung und Entwicklung neuer computergestützter Modelle. Im Zentrum der Anwendung steht die Brand- und Rauchausbreitung in Gebäuden.  
 
 Dies ist das erste Jahr in dem wir dieses Skript anbieten. Die Motivation zur Erstellung dieses Skriptes ist zum Einen den Teilnehmern der Vorlesung eine Möglichkeit zum Nachlesen der Inhalte zu geben. Und zum Anderen auch Externen bzw. ehemaligen Teilnehmen diese Inhalte frei zur Verfügung zu stellen.
 
