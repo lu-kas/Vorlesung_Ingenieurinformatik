@@ -14,10 +14,12 @@ Da sich das Skript in der Entwicklung befinden freuen wir uns über konstruktive
 
 **Alle organisatorischen Informationen zum Ablauf finden Sie auf der [CCE-Webseite zur Ingenieurinformatik](https://cce.uni-wuppertal.de/index.php?id=4178&L=0).** 
 
-## Inhaltsübersicht
+## Inhalte des Skripts
 
 * Geplant ist, dass dieses Skript nicht nur die Vorlesung *Ingenieurinformatik* sondern auch andere mit dieser Vorlesung verknüpfte Inhalte, wie z.B. *Datenanalyse mit Python*, enthält. Im Laufe der Vorlesung werden wir die für Sie relevanten Inhalte entsprechend bekannt geben. Im Sommersemester 2020 werden voraussichtlich aber noch keine weiteren Inhalte eingebunden sein.
 * Das Skript enthält auch Übungsaufgaben für alle Kapitel, mit und ohne Lösungswege, aber immer mit einem Ergebnis bzw. der Möglichkeit der Validierung Ihrer Lösung.
+* Drucken Sie das Skript nicht aus, oder speichern Sie es nicht anderwaltig. So haben Sie die aktuellste Version, welche kontinuierlich verbessert und mit Inhalten ergänzt wird. 
+* Das Skript wird immer frei zugänglich bleiben.
 
 ## Themenübersicht
 

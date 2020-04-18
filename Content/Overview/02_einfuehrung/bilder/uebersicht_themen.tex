@@ -41,22 +41,25 @@
   					  level 1/.append style={level distance=4.5cm, fill=white, 
   					  					     sibling angle=90, font=\large\sf},
   					  level 2/.append style={level distance=3cm, fill=my_blue_light, 
-  					  					     sibling angle=45,font=\small\sf}] 
+  					  					     sibling angle=55,font=\small\sf}] 
 \node [root concept] {Ingenieurinformatik} % root
 	  child [T1] { node {Numerik} 
-	  	child { node {Integrale und Ableitungen} } 
-	  	child { node {Gewöhnliche Differentialgleichungen} } 
-	  	child { node {Partielle Differentialgleichungen} } 
+	  	child { node {Ableitungen} } 
+	  	child { node {Integrale} } 
+	  	child { node {ODE} } 
+	  	child { node {PDE} } 
 	  }
 	  child [T2] { node {Datenanalyse} 
-	  	child { node {Einlesen} } 
+	  	child { node {Optimierung} } 
+	  	child { node {Analyse} } 
 	  	child { node {Visualisierung} } 
-	  	child { node {Analyse} }
+	  	child { node {Einlesen} }
 	  }
 	  child [T3] { node {Python} 
-	  	child { node {Grundlagen} } 
-	  	child { node {Flusskontrolle} } 
-	  	child { node {Funktionen} } 	  	
+	  	child { node {Funktionen} } 
+	  	child { node {Flusskontrolle} }
+	  	child { node {JupyterLab} } 
+	  	child { node {Grundlagen} } 	  	
 	  }
       child [T4] { node {Computer}
         child { node {Digitalisierung} }
