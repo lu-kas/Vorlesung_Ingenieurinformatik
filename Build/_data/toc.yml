@@ -116,16 +116,13 @@
     - url: /Script/01_computer/023_numerische_algorithmen
 #     - url: /Script/01_computer/024_smp
 
-#   - title: Hardware
-#     url: /Script/01_computer/03_hardware
-#     expand_subsections: false
-#     subsections:
-#     - title: Geschichtliche Meilensteine
-#       url: /Script/01_computer/031_geschichte
-#     - title: Schaltkreise
-#       url: /Script/01_computer/032_schaltkreise
-#     - title: Funktionsweise Computer
-#       url: /Script/01_computer/033_funktionsweise_computer
+  - title: Hardware
+    url: /Script/01_computer/03_hardware
+    expand_subsections: false
+    subsections:
+    - url: /Script/01_computer/031_geschichte
+    - url: /Script/01_computer/032_komponenten
+    - url: /Script/01_computer/033_funktionsweise_computer
 
 #   - title: Software
 #     url: /Script/01_computer/04_software
