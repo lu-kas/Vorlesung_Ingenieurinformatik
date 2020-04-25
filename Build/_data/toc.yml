@@ -22,8 +22,14 @@
 # See the links below for an example.
 
 # Top-level page
-- title: Home
-  url: /home
+- url: /Overview/uebersicht
+  not_numbered: true
+
+- url: /Overview/informatik
+  not_numbered: true
+  
+- title: CCE
+  url: /Overview/cce
   not_numbered: true
 
 # External link
