@@ -359,7 +359,7 @@ $$ \sf z = (-1)^s \cdot m \cdot 2^e $$
 
 # 64-Bit Gleitkommazahlen
 
-Darstellung mit dem IEEE754-Standard 
+Darstellung mit dem [IEEE754 Standard](https://de.wikipedia.org/wiki/IEEE_754)
 
 .center[![Integer-Zahlen](../Content/Script/01_computer/bilder/zahlendarstellung_float.png)]
 
