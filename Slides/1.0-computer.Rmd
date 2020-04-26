@@ -36,6 +36,12 @@ Bergische Universtität Wuppertal
 
 ---
 
+class: topic
+
+# Informatik
+
+---
+
 # Informatik
 
 * Wissenschaft im Kontext von Digitalrechnern
@@ -111,6 +117,12 @@ class: rotate
 
 ---
 
+class: topic
+
+# Computer
+
+---
+
 # Grundidee eines Computers
 
 1. Digitale Computer unterscheiden nur zwei Zustände
@@ -138,6 +150,12 @@ class: rotate
 
 ---
 
+class: topic
+
+# Digitalisierung
+
+---
+
 class: rotate
 # Zustände und Wechsel
 
@@ -156,7 +174,13 @@ class: rotate
 
 ---
 
-# Analoge Signale
+class: topic
+
+# Analoge Informationen
+
+---
+
+# Analoge Informationen
 
 * kontinuierlich auf makroskopischer Skala
 
@@ -193,7 +217,13 @@ class: rotate
 
 ---
 
-# Digitale Signale
+class: topic
+
+# Digitale Informationen
+
+---
+
+# Digitale Informationen
 
 * Nachteil: diskret bzw. quantisiert
 
@@ -221,5 +251,97 @@ class: rotate
 
 ---
 
+class: rotate
+# Temperaturmessung
+
+![](../Content/Script/01_computer/bilder/temperatur_digital_all.png)
+
+---
+
+class: rotate
+# Temperaturmessung – Zoom
+
+![](../Content/Script/01_computer/bilder/temperatur_digital_zoom.png)
+
+---
+
+class: topic
+
+# Digitale Zahlendarstellung
+
+---
+
+# Dualsystem
+
+* 5<sub>10</sub> = 101<sub>2</sub>
+* 107<sub>10</sub> = 1101011<sub>2</sub>
+* 2635<sub>10</sub> = 101001001011<sub>2</sub>
+
+---
+
+# Hexadezimalsystem
+
+* Neue Ziffern:
+ * '10' dargestellt durch `A`
+ * bis '15' dargestellt mit `F`
+
+* Beispiele:
+ * 5<sub>10</sub> = 5<sub>16</sub> = 0x5
+ * 107<sub>10</sub> = 6B<sub>16</sub> = 0x6B
+ * 2635<sub>10</sub> = A4B<sub>16</sub> = 0xA4B
+
+---
+
+# Binäre Maßeinheiten
+
+* 1 Bit = eine Ziffer im Binärsystem, Wertebereich: 0 und 1
+* 1 Byte = acht Ziffern im Binärsystem, Wertebereich: 0 bis 255
+
+
+* 1 KB = 1 kiloByte = 10<sup>3</sup> Byte
+* 1 MB = 1 megaByte = 10<sup>6</sup> Byte
+* 1 GB = 1 gigaByte = 10<sup>9</sup> Byte
+* 1 TB = 1 teraByte = 10<sup>12</sup> Byte
+* 1 PB = 1 petaByte = 10<sup>15</sup> Byte
+
+---
+
+# Geschwidigkeit der Datenübertragung
+
+* Lesen / Schreiben HDD: ~200 MB/s 
+* Lesen / Schreiben SSD: ~500 MB/s
+
+
+* über das Mobilfunknetz, z.B. [3G](https://de.wikipedia.org/wiki/Mobilfunkstandard): 384 kbit/s
+* über ein Netzwerkkabel, z.B. [Fast Ethernet](https://de.wikipedia.org/wiki/Ethernet): ~100 Mbit/s
+
+---
+
+# Darstellung ganzer Zahlen
+
+.center[![Integer-Zahlen](../Content/Script/01_computer/bilder/zahlendarstellung_integer08.png)]
+
+
+* kleinste Zahl: 0<sub>2</sub> = 0
+* größte Zahl: 11111111<sub>2</sub> = 2<sup>8</sup>-1 = 255
+
+---
+
+# Darstellung ganzer Zahlen – Beispiele
+
+.center[![Integer-Zahlen](../Content/Script/01_computer/bilder/zahlendarstellung_integer08_5.png)]
+
+.center[![Integer-Zahlen](../Content/Script/01_computer/bilder/zahlendarstellung_integer08_107.png)]
+
+---
+
+# Ganze Zahlen mit Vorzeichen
+
+.center[![Integer-Zahlen](../Content/Script/01_computer/bilder/zahlendarstellung_integer32.png)]
+
+* kleinste Zahl = -2<sup>31</sup> = -2,147,483,648
+* größte Zahl =  2<sup>31</sup> - 1 = 2,147,483,647
+
+---
 
 # Zusammenfassung
