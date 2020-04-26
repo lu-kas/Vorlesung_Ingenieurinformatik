@@ -1,0 +1,225 @@
+---
+title: "Ingenieurinformatik"
+subtitle: "Vorlesung 1.0 -- Übersicht Computer"
+author: "Lukas Arnold"
+institute: "Computational Civil Engineering, Bergische Universtität Wuppertal"
+date: "(build: `r Sys.Date()`)"
+
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["xaringan-themer.css"]
+    seal: false
+    nature:
+      highlightStyle: solarized-light
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: "%current%"
+
+---
+
+<center>
+<img src="logos/cce_logo_text_bottom.png" height="600px" />
+
+<!---
+<h1>Ingenieurinformatik</h1>
+
+<h2>Vorlesung 1.0 – Übersicht Computer</h2>
+
+Lukas Arnold <br><br>
+Computational Civil Engineering <br>
+Bergische Universtität Wuppertal
+--->
+
+</center>
+
+---
+
+# Informatik
+
+* Wissenschaft im Kontext von Digitalrechnern
+* Vier Disziplinen
+ * Technische Informatik
+ * Praktische Informatik
+ * Angewandte Informatik
+ * Theoretische Informatik
+
+---
+
+class: rotate
+
+# Disziplinen der Informatik
+
+<center>
+<img src="../Content/Overview/bilder/informatik_disziplinen.png" height="600px" />
+</center>
+
+---
+
+# Beispiele aus dem Bauingenieurwesen @ BUW
+
+* [Baubetrieb und Bauwirtschaft](https://www.baubetrieb.uni-wuppertal.de)
+
+* [Baumechanik und Numerische Methoden](http://www.baumechanik.uni-wuppertal.de/index.php?content=start)
+
+* [Computersimulation für Brandschutz und Fußgängerverkehr](https://www.asim.uni-wuppertal.de/)
+
+---
+
+# Computational Civil Engineering (CCE) <br>@ BUW
+
+* Erforschung und Entwicklung neuer computergestützter Modelle
+* Brand- und Rauchausbreitung in Gebäuden. 
+* Lehre
+ * [Ingenieurinformatik](https://cce.uni-wuppertal.de/index.php?id=4178&L=0)
+ * [Numerische Brandsimulationen](https://cce.uni-wuppertal.de/index.php?id=4185&L=0)
+* Modellierung
+ * CFD
+ * FDS / ARTSS / PROPTI 
+ * JURECA
+
+---
+
+# JURECA @ FZJ
+
+![JURECA](https://www.fz-juelich.de/SharedDocs/Bilder/IAS/JSC/EN/galeries/JURECA/JURECA.jpg?__blob=poster)
+
+---
+
+class: rotate
+
+# U-Bahnstation
+
+<video controls width="85%"> <source src="https://uni-wuppertal.sciebo.de/s/L8WzAy7adlX45Yk/download" type="video/mp4"> </video>
+
+---
+
+class: rotate
+
+# Flüssigkeitsbrand
+
+<video controls width="85%"> <source src="https://uni-wuppertal.sciebo.de/s/muvLoJ1qgmJgBHT/download" type="video/mp4"> </video>
+
+---
+
+class: rotate
+
+# Brandausbreitung
+
+<video controls width="85%"> <source src="https://uni-wuppertal.sciebo.de/s/mBzgUtDRcZfYJRb/download" type="video/mp4"> </video>
+
+---
+
+# Grundidee eines Computers
+
+1. Digitale Computer unterscheiden nur zwei Zustände
+ * an / wahr / 1
+ * aus / falsch / 0
+ 
+1. Aufbau nur durch grundlegende Logik-Operationen (Auswahl)
+ * AND
+ * OR
+ * NOT
+ 
+1. Komplexität durch sehr schnelle Datenverarbeitung
+
+---
+
+# Kapitelinhalte
+
+* Digitalisierung
+
+* Algorithmen
+
+* Hardware
+
+* Software
+
+---
+
+class: rotate
+# Zustände und Wechsel
+
+<center>
+<img src="../Content/Script/01_computer/bilder/digital_state.png" height="600px" />
+</center>
+
+---
+
+class: rotate
+# Takt
+
+<center>
+<img src="../Content/Script/01_computer/bilder/digital_state_clock.png" height="600px" />
+</center>
+
+---
+
+# Analoge Signale
+
+* kontinuierlich auf makroskopischer Skala
+
+* alle Werte des Wertebereich können angenommen werden
+
+---
+
+# Analoge Messung – Beispiele
+
+.center.pull-left[
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Mercury_Thermometer.jpg/277px-Mercury_Thermometer.jpg" height="400px" />
+]
+
+.center.pull-right[
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Letterbalancemk.jpg/450px-Letterbalancemk.jpg" height="400px" />
+]
+
+---
+
+class: rotate
+
+# Temperaturmessung
+
+<video controls height="95%"><source src="https://uni-wuppertal.sciebo.de/s/aPPAWLrOhqHtyy2/download" type="video/mp4"> </video>
+
+---
+
+class: rotate
+# Analoges Signal
+
+<center>
+<img src="../Content/Script/01_computer/bilder/signal_analog.png" height="600px" />
+</center>
+
+---
+
+# Digitale Signale
+
+* Nachteil: diskret bzw. quantisiert
+
+* Vorteile 
+ * einfache und schnelle Vervielfältigung und Übertragung
+ * hohe Flexibilität bei der Speicherung und Darstellung 
+ * einfache (Weiter-) Verarbeitung
+ * Möglichkeit der Validierung und Verschlüsselung
+
+---
+
+class: rotate
+# A-D-Wandler
+
+<center>
+<img src="../Content/Script/01_computer/bilder/signal_digital_analog.png" height="600px" />
+</center>
+
+---
+
+class: rotate
+# Beispiel DS18B20
+
+<img src="../Content/Script/01_computer/bilder/DS18B20.png" height="500px" />
+
+---
+
+
+# Zusammenfassung
