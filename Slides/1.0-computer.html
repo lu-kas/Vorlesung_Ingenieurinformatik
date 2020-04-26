@@ -336,7 +336,75 @@ class: topic
 
 ---
 
+# Darstellung reeller Zahlen
+
+* Näherung durch Gleitkommazahlen
+* Aufteilung der Bits:
+ * Vorzeichen `\(\sf s\)` 
+ * Exponent `\(\sf e\)`
+ * Mantisse `\(\sf m\)`
+
+* Darstellungsgleichung
+$$ \sf z = (-1)^s \cdot m \cdot 2^e $$
+
+---
+
+# 64-Bit Gleitkommazahlen
+
+Darstellung mit dem IEEE754-Standard 
+
+.center[![Integer-Zahlen](../Content/Script/01_computer/bilder/zahlendarstellung_float.png)]
+
+* Vorzeichen (1 bit)
+* Exponent (11 bit)
+* Mantisse (52 bit)
+
+---
+# 64-Bit Gleitkommazahlen – Wertebereich
+
+Für den Exponenten `\(\sf e\)` gilt
+
+* kleinster Wert in Etwa: -(2&lt;sup&gt;10&lt;/sup&gt; - 1) = -1023
+* größter Wert in Etwa: ~ 2&lt;sup&gt;10&lt;/sup&gt; - 1 = 1023
+
+und somit
+
+* kleinste Größenordnung: 2&lt;sup&gt;-1023&lt;/sup&gt; ~ 10&lt;sup&gt;-308&lt;/sup&gt;
+* größte Größenordnung: 2&lt;sup&gt;1023&lt;/sup&gt; ~ 10&lt;sup&gt;308&lt;/sup&gt;
+
+---
+
+# 64-Bit Gleitkommazahlen – Genauigkeit
+
+* kleinster Unterschied zwischen zwei Gleitkommazahlen: 10 / 2&lt;sup&gt;52&lt;/sup&gt; ~ 2·10&lt;sup&gt;-15&lt;/sup&gt;
+
+* das entspricht etwa der 15-ten Nachkommastelle
+
+---
+
+# Zeichendarstellung
+
+* Speicherung als ganze Zahl
+
+* Zuordnung durch die [ASCII Tabelle](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange)
+
+* Druckbare Zeichen:
+
+```
+ !"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?
+@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+`abcdefghijklmnopqrstuvwxyz{|}~
+```
+
+---
+
 # Zusammenfassung
+
+* Darstellung von Informationen durch Folgen von Zuständen (0/1)
+
+* Quantelung der Werte bei der Digitalisierung
+
+* Konventionen / Standartd zur Interpretation der Bitfolgen
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
