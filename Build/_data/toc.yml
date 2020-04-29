@@ -109,8 +109,7 @@
     - url: /Script/01_computer/012_digitale_informationen
     - url: /Script/01_computer/013_zahlendarstellung
 
-#   - title: Algorithmen
-#     url: /Script/01_computer/02_algorithmen
+  - url: /Script/01_computer/02_algorithmen
 
 #   - title: Hardware
 #     url: /Script/01_computer/03_hardware
