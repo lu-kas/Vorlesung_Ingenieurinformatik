@@ -110,6 +110,8 @@
     - url: /Script/01_computer/013_zahlendarstellung
 
   - url: /Script/01_computer/02_algorithmen
+    subsections:
+    - url: /Script/01_computer/021_einfache_beispiele
 
 #   - title: Hardware
 #     url: /Script/01_computer/03_hardware
