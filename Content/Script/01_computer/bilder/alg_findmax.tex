@@ -1,0 +1,53 @@
+\documentclass[convert={density=600,outext=.png}]{standalone}
+\usepackage{tikz,pgfplots}
+\usepackage{xcolor}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{sansmath} % sans serif math                                                                                                                               
+\sansmath % if you use it globaly                                                                                                                           
+
+\usetikzlibrary{decorations.pathreplacing, shapes,arrows}
+
+\begin{document}
+\begin{tikzpicture}[node distance = 4cm and 6cm, auto]
+
+  \input{my_colors.tex}
+
+  \tikzstyle{decision} = [diamond, draw, draw=my_blue, fill=my_blue_light, text width=2.5cm, text badly centered, inner sep=0pt]
+  \tikzstyle{block} = [rectangle, draw=my_green, fill=my_green_light, text width=2cm, text centered, rounded corners, minimum height=4em]
+  \tikzstyle{blockio} = [rectangle, draw=my_red, fill=my_red_light, text width=3cm, text centered, rounded corners, minimum height=4em]
+  \tikzstyle{cloud} = [text centered, ellipse, draw=my_orange, fill=my_orange_light, text width=2cm, minimum height=3em]
+  \tikzstyle{line} = [draw, thick]
+
+  %\tikzstyle{block} = [rectangle, draw, text centered, rounded corners, minimum height=2em]
+  
+%	\tikzstyle{every node}=[font=\fontsize{35}{0}\selectfont]
+%	\tikzstyle{boxes_style}=[draw=border_color,fill=fill_color, line width=1.5mm]
+
+  \node [blockio] (eingabe) {Eingabe Werteliste\\ $A=A_0, \dots A_{n-1}$};
+  
+  \node [block, right of=eingabe] (init) {$m=A_0$};
+  
+  \node [cloud, below of=init] (loop) {für alle $a\in A$};
+  \node [decision, below of=loop] (check_max) {$a>m$};
+  \node [block, below of=check_max] (set_max) {$m=a$};
+  
+  \node [blockio, right of=set_max] (ausgabe) {Ausgabe\\ Maximum $m$};
+  \node [coordinate, left of=check_max] (c1) {};
+  
+% \node [block, draw=my_red, fill=my_red_light, right of=eingabe] (algorithmus) {Algorithmus};
+%  \node [block, draw=my_green, fill=my_green_light, right of=algorithmus] (ausgabe) {Ausgabe};
+
+ \path [line, ->] (eingabe) -- (init);
+ \path [line, ->] (init) -- (loop);  
+ \path [line, ->] (loop) -| node [near start] {fertig}  (ausgabe);  
+ \path [line, ->] (loop) -- node [near start] {$a=A_i$} (check_max);
+ \path [line, ->] (check_max) -- node [near start] {wahr} (set_max);     
+% \path [line, ->] (check_max) -- node [left of=check_max] {B} -- node [near start] {falsch} (loop);      
+ \draw [line] (check_max) -- node [near start] {falsch} (c1);
+ \draw [line] (set_max) -| (c1);
+ \draw [line, ->] (c1) |- (loop);
+
+\end{tikzpicture}
+\end{document}
