@@ -16,14 +16,14 @@
 
 	\node [blockio] (eingabe) {Werteliste\\$A=A_0, \dots A_{n-1}$};
   
-%	\node [block, ode distance=5cm] (init1) {$i=0$};
-  
 	\node [cloud, below right=of eingabe] (loop1) {für alle $i\in [0,\dots n[$};
 
 	\node [block, below=of loop1] (init2) {$m_w=A_i$\\$m_p=i$};
 
 	\node [cloud, below=of init2] (loop2) {für alle $j\in [i,\dots n[$};
+
 	\node [decision, below=of loop2] (check_max) {$A_j < m_w$};
+
 	\node [block, below=of check_max] (set_max) {$m_p=j$};
 
 	\node [block, left of=init2, node distance=3cm] (swap) {$A_i \leftrightarrow A_{m_p}$};
@@ -32,12 +32,7 @@
 
 	\node [coordinate, right of=check_max, node distance=3cm] (c1) {};
 
-%	\begin{scope}[on background layer]
-%		\node[back_box, fit=(init) (loop) (check_max) (set_max) (c1), label=below:Algorithmus] (algo_box) {};
-%		\node[back_box, fit=(eingabe), label=above:Eingabe] (input) {};
-%		\node[back_box, fit=(ausgabe), label=below:Ausgabe] (output) {};
-%	\end{scope}
-%
+
 	\path [line, ->] (eingabe) -| (loop1);
 	\path [line, ->] (loop1) -- node [midway, right] {$i$} (init2);  
 	\path [line, ->] (loop1) -| node [near start, above] {fertig}  (ausgabe);  

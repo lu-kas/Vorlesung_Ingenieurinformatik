@@ -1,0 +1,48 @@
+\documentclass[convert={density=600,outext=.png}]{standalone}
+\usepackage{tikz, pgfplots}
+\usepackage{xcolor}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{sansmath} % sans serif math                                                                                                                               
+\sansmath % if you use it globaly                                                                                                                           
+
+\usetikzlibrary{shapes, arrows, fit, backgrounds, positioning}
+
+\begin{document}
+\begin{tikzpicture}[node distance=3cm and 5cm, on grid]
+
+	\input{my_flowchart.tex}
+
+	\node [blockio] (eingabe) {Werteliste\\$A=A_0, \dots A_{n-1}$};
+  
+	\node [cloud, below right=of eingabe] (loop1) {für alle $i\in [0,\dots n-1[$};
+
+	\node [cloud, below=of loop1] (loop2) {für alle $j\in [i,\dots n-1[$};
+
+	\node [decision, below=of loop2] (check_max) {$A_j > A_{j+1}$};
+
+	\node [block, below= of check_max, node distance=3cm] (swap) {$A_i \leftrightarrow A_{m_p}$};
+
+	\node [blockio, right=of swap] (ausgabe) {Sortierte Liste $A$};
+
+	\node [coordinate, left of=loop2, node distance=3cm] (c1) {};
+	\node [coordinate, right of=check_max, node distance=3cm] (c2) {};
+	
+	
+	\path [line, ->] (eingabe) -| (loop1);
+	\path [line, ->] (loop1) -- node [midway, right] {$i$} (loop2);  
+	\path [line, ->] (loop1) -| node [near start, above] {fertig}  (ausgabe);  
+
+	\path [line, ->] (loop2) -- node [midway, right] {$j$} (check_max);  
+	\draw [line] (loop2) -- node [midway, above] {fertig}  (c1);  
+	\path [line, ->] (check_max) -- node [midway, right] {wahr} (swap);     
+	\draw [line] (check_max) -- node [midway, above] {falsch} (c2);
+	\draw [line] (swap) -| (c2);
+	\draw [line, ->] (c2) |- (loop2);
+	\draw [line, ->] (c1) |- (loop1);
+%	\draw [line, ->] (swap) |- (loop1);
+	
+
+\end{tikzpicture}
+\end{document}
