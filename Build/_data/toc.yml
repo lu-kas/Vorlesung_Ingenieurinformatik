@@ -111,7 +111,7 @@
 
   - url: /Script/01_computer/02_algorithmen
     subsections:
-    - url: /Script/01_computer/021_einfache_beispiele
+    - url: /Script/01_computer/021_sortieralgorithmen
 
 #   - title: Hardware
 #     url: /Script/01_computer/03_hardware
