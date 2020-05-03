@@ -200,6 +200,7 @@ h1, h2, h3 {
 
 .remark-slide-content {
   background-color: var(--color_white);
+/*   background-color: var(--color_red); */
   font-size: 20pt;
   padding: 1em 4em 1em 4em;
 }
@@ -271,6 +272,15 @@ a, a > code {
 /*     background: #DDD; */
     transform-origin: 0 0;
     transform: rotate(-90deg) translateX(-580px) translateY(-100px) ;
+}
+
+.rotate pre {
+    position: absolute;
+/*     text-align:center; */
+    top: 0%;
+/*     left: 50%; */
+/*     width: 600px; */
+/*     background: #DDD; */
 }
 
 .topic h1 {
