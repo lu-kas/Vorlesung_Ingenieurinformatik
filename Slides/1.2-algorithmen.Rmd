@@ -89,9 +89,18 @@ class: topic
 
 class: rotate
 
-# Maximum Algorithmus
+# Flussdiagramm
 
 ![](../Content/Script/01_computer/bilder/alg_findmax.png)
+
+---
+
+# Grundelemente im Flussdiagramm
+
+* **Anweisungen** (grün): Hier finden Zuweisungen, z.B. Setzen von Variablenwerten, hier $\sf m$, statt
+* **Schleifen** (orange): Wiederholungen bzw. Iterationen über eine Menge, dabei wird bei jedem Durchlauf der Wert der Laufvariable, hier $\sf a$, neu gesetzt
+* **Verzweigung** (blau): Abfrage einer Bedingung, welche entscheidet welche folgenden Elemente ausgeführt werden, hier wird geprüft ob $\sf a > m$
+
 
 ---
 
@@ -193,6 +202,526 @@ Maximaler Wert in A: m = 909
 
 ---
 
+class: topic
+
+# Suchalgorithmen
+
+
+---
+
+# Suchalgorithmen
+
+* **Problemstellung** Eine Liste von Zahlen soll der Größe nach sortiert werden 
+
+* **Ansatz** Möglichst wenige Operationen durchführen
+
+* **Anwendung** Datenbanken und Suchvorgänge
+
+---
+
+# Grundidee Selection Sort
+
+1. es wird das kleinste Element der Liste gesucht
+1. dieses wird mit dem ersten Element getauscht
+1. nun wird das zweit-kleinste Element gesucht, jedoch ohne das erste Element zu berücksichtigen
+1. diese wird mit dem zweiten Element getauscht
+1. die obigen beiden Schritte werden wiederholt, bis nur noch ein Element in der zu durchsuchenden Liste steht
+
+---
+
+class: rotate
+
+# Selection Sort
+
+![](../Content/Script/01_computer/bilder/alg_selsort.png)
+
+---
+
+class: rotate
+
+# Beispiel Selection Sort
+
+```
+Zu sortierende Werteliste  [42, 6, 22, 11, 54, 12, 31]
+
+```
+--
+```
+Iteration  1: 
+   Minimum von  [42, 6, 22, 11, 54, 12, 31] ist 6
+   Sortierter / Unsortierter Teil:  [6] / [42, 22, 11, 54, 12, 31]
+```
+--
+```
+Iteration  2: 
+   Minimum von  [42, 22, 11, 54, 12, 31] ist 11
+   Sortierter / Unsortierter Teil:  [6, 11] / [22, 42, 54, 12, 31]
+```
+--
+```
+Iteration  3: 
+   Minimum von  [22, 42, 54, 12, 31] ist 12
+   Sortierter / Unsortierter Teil:  [6, 11, 12] / [42, 54, 22, 31]
+```
+--
+```
+Iteration  4: 
+   Minimum von  [42, 54, 22, 31] ist 22
+   Sortierter / Unsortierter Teil:  [6, 11, 12, 22] / [54, 42, 31]
+```
+---
+
+class: rotate
+
+# Selection Sort
+
+```
+Zu sortierende Werteliste  [42, 6, 22, 11, 54, 12, 31]
+
+```
+
+```
+Iteration  4: 
+   Minimum von  [42, 54, 22, 31] ist 22
+   Sortierter / Unsortierter Teil:  [6, 11, 12, 22] / [54, 42, 31]
+```
+--
+```
+Iteration  5: 
+   Minimum von  [54, 42, 31] ist 31
+   Sortierter / Unsortierter Teil:  [6, 11, 12, 22, 31] / [42, 54]
+```
+--
+```
+Iteration  6: 
+   Minimum von  [42, 54] ist 42
+   Sortierter / Unsortierter Teil:  [6, 11, 12, 22, 31, 42] / [54]
+```
+--
+```
+Iteration  7: 
+   Minimum von  [54] ist 54
+   Sortierter / Unsortierter Teil:  [6, 11, 12, 22, 31, 42, 54] / []
+```
+
+---
+
+# Grundidee Bubble Sort
+
+1. es wird die Liste von hinten nach vorn durchlaufen
+1. benachbarte Elemente werden vertauscht, wenn das rechte Element kleiner ist als das linke
+1. beim nächsten Durchlauf wird eine kürzere Liste durchlaufen, d.h. ohne die bereits sortierten Elemente
+1. obiger Schritt wird wiederholt bis keine Vertauschung mehr stattfand
+
+---
+class: rotate
+
+# Flussdiagramm Bubble Sort
+
+![](../Content/Script/01_computer/bilder/alg_bubblesort.png)
+
+---
+
+class: rotate
+
+# Beispiel Bubble Sort
+
+```
+Zu sortierende Werteliste  [42, 6, 22, 11, 54, 12, 31]
+
+```
+```
+Iteration  1: 
+   Liste:  [42, 6, 22, 11, 54, 12, 31]
+   Tausche:  42 und 6
+   Liste:  [6, 42, 22, 11, 54, 12, 31]
+   Tausche:  42 und 22
+   Liste:  [6, 22, 42, 11, 54, 12, 31]
+   Tausche:  42 und 11
+   Liste:  [6, 22, 11, 42, 54, 12, 31]
+   Tausche:  54 und 12
+   Liste:  [6, 22, 11, 42, 12, 54, 31]
+   Tausche:  54 und 31
+   Liste:  [6, 22, 11, 42, 12, 31, 54]
+```
+
+---
+
+class: rotate
+
+# Beispiel Bubble Sort
+
+```
+Zu sortierende Werteliste  [42, 6, 22, 11, 54, 12, 31]
+
+```
+```
+Iteration  2: 
+   Liste:  [6, 22, 11, 42, 12, 31, 54]
+   Tausche:  22 und 11
+   Liste:  [6, 11, 22, 42, 12, 31, 54]
+   Tausche:  42 und 12
+   Liste:  [6, 11, 22, 12, 42, 31, 54]
+   Tausche:  42 und 31
+   Liste:  [6, 11, 22, 12, 31, 42, 54]
+```
+
+---
+
+class: rotate
+
+# Beispiel Bubble Sort
+
+```
+Zu sortierende Werteliste  [42, 6, 22, 11, 54, 12, 31]
+
+```
+```
+Iteration  3: 
+   Liste:  [6, 11, 22, 12, 31, 42, 54]
+   Tausche:  22 und 12
+   Liste:  [6, 11, 12, 22, 31, 42, 54]
+
+Iteration  4: 
+   Liste:  [6, 11, 12, 22, 31, 42, 54]
+   kein Tausch mehr notwendig
+```
+
+---
+
+class: topic
+
+# Eigenschaften von Algorithmen
+
+---
+
+# Eigenschaften von Algorithmen
+
+* Terminiertheit
+* Determiniertheit
+* Effizienz
+* Komplexität
+
+---
+
+# Terminiertheit
+
+* Algorithmus hält nach endlich vielen Schritten an
+
+* nicht immer beweisbar, z.B. Collatz-Problem:
+ * beginne mit irgendeiner natürlichen Zahl $\sf n_0 > 0$
+ * ist $\sf n_i$ gerade so ist $\sf n_{i+1} = n_i/2$
+ * ist $\sf n_i$ ungerade so ist $\sf n_{i+1} = 3n_i + 1$
+ * endet bei $\sf n_i = 1$
+ 
+* Vermutung: Jede so konstruierte Zahlenfolge mündet in den Zyklus 4, 2, 1
+* Bisher unbewiesen
+
+* Beispielfolge: 15, 46, 23, 70, 35, 106, 53, 160, 80, 40, 20, 10, 5, 16, 8, 4, 2, 1
+
+---
+
+# Determiniertheit
+
+* es treten nur definierte und reproduzierbare Zustände auf
+
+* die Ergebnisse sind immer reproduzierbar
+
+* Beispiele:
+ * Addition ganzer Zahlen
+ * Selection Sort
+ * Collatz-Sequenz
+
+---
+
+# Effizienz
+
+Die Effizienz ist nicht strikt definiert und kann umfassen: 
+* Laufzeit
+* Speicheraufwand
+* Energieverbrauch
+
+Bei bestimmten Anwendungen sind entsprechende Eigenschaften notwendig:
+* Speicheraufwand bei Big Data, z.B. in der Bioinformatik
+* Laufzeit bei Echtzeitanwendung, z.B. Flugzeugsteuerung, Fußgängerdynamik
+
+---
+
+# Komplexität
+
+* Maß für den asymptotischen Aufwand  
+
+* gesucht ist die Aufwandfunktion $\sf f(n)$, welche von der Problemgröße $\sf n$ abhängt
+
+* Beispiele für eine Problemgröße:
+ * Anzahl der Summanden bei einer Summe 
+ * Anzahl der zu sortierenden Zahlen
+
+---
+
+# Komplexität
+
+* meist wird eine einfache Vergleichsfunktion $\sf g(n)$ mit $\sf n \rightarrow \infty$ gesucht
+
+* $\sf g(n)$ beschreibt das asymtotische Wachstum von $\sf f(n)$
+
+* Beispiele:
+ * $\sf f_1(n) = n^4 + 5n^2 - 10 \approx \mathcal{O}(n^4) = g_1(n)$ 
+ * $\sf f_2(n) = 2^{n+1} \approx \mathcal{O}(2^n) = g_2(n)$ 
+
+---
+class: rotate
+
+# Komplexität
+
+![](../Content/Script/01_computer/bilder/komplexitaet.png)
+
+---
+
+# Auswirkungen Komplexität
+
+Beispiel:
+* ein Berechnungsschritt sei z.B. 1 s lang
+* das $\sf n$ sei beispielsweise 1000
+
+Asymptotische Abschätzungen der Laufzeit:
+* $\sf \mathcal{O}(n)$: 10<sup>3</sup> s ≈ 1 h 
+* $\sf \mathcal{O}(n^2)$: 10<sup>6</sup> s ≈ 11 d 
+* $\sf \mathcal{O}(n^3)$: 10<sup>9</sup> s ≈ 31 a 
+* $\sf \mathcal{O}(2^n)$: 2<sup>1000</sup> s ≈ ...
+
+---
+
+# Komplexität Selection Sort
+
+$$ \sf f(n) = \sum_{i=0}^n i = \frac{n(n-1)}{2} \approx \mathcal{O}(n^2) $$
+
+---
+
+class: rotate
+
+# Komplexität Selection Sort
+
+![](../Content/Script/01_computer/bilder/sort_selection.png)
+
+---
+
+# Komplexität Bubble Sort
+
+* best case: $\sf \mathcal{O}(n)$
+* worst case: $\sf \mathcal{O}(n^2)$ 
+* average case: $\sf \mathcal{O}(n^2)$
+
+---
+
+class: rotate
+
+# Komplexität Bubble Sort – Unsortiert
+
+![](../Content/Script/01_computer/bilder/sort_bubble_p000.png)
+
+---
+
+class: rotate
+
+# Komplexität Bubble Sort – Vorsortiert
+
+![](../Content/Script/01_computer/bilder/sort_bubble_p095.png)
+
+---
+
+class: topic
+
+# Numerische Algorithmen
+
+
+---
+
+# Newton-Raphson-Verfahren
+
+Das Finden von Nullstellen ist die Grundlage für viele Verfahren, z.B.:
+* das Lösen von nicht-linearen Gleichungen, 
+* das Finden von Extremwerten, oder
+* Optimierungsverfahren
+
+---
+
+# Grundidee 
+
+* iterativen Suche der Nullstelle $\sf x_{ns}$ einer Funktion $\sf f(x)$ 
+* Auswertung der ersten Ableitung $\sf f'(x)$
+* Näherung der Nullstelle $\sf x_i$ durch Iterationvsvorschrift mit vorgegebenen Startwert, $\sf x_0$ 
+
+$$\sf x_{i+1} = x_i - \frac{f(x_i)}{f'(x_i)} $$
+
+---
+
+# Beispiel 1
+
+* Funktion: $\sf f(x) = 1 - x^2$
+
+* Ableitung: $\sf f'(x) = -2x$ 
+
+* bekannte Nullstellen: $\sf x_{ns} = \{-1, 1\}$
+
+* Startwert: $\sf x_0 = 0.3$
+
+---
+
+class: rotate
+
+# Beispiel 1
+
+```
+Startwert x_0 = 0.3000
+
+Iterationsschritt i =  1, x_i = 0.3000
+   f(x_i)  = -0.9100
+   fp(x_i) = 0.6000
+   x_(i+1) = 1.8167
+
+Iterationsschritt i =  2, x_i = 1.8167
+   f(x_i)  = 2.3003
+   fp(x_i) = 3.6333
+   x_(i+1) = 1.1836
+```
+
+---
+
+class: rotate
+
+# Beispiel 1
+
+```
+Iterationsschritt i =  3, x_i = 1.1836
+   f(x_i)  = 0.4008
+   fp(x_i) = 2.3671
+   x_(i+1) = 1.0142
+
+Iterationsschritt i =  4, x_i = 1.0142
+   f(x_i)  = 0.0287
+   fp(x_i) = 2.0285
+   x_(i+1) = 1.0001
+```
+
+---
+
+class: rotate
+
+# Beispiel 1 – Iterationsschritt 0
+
+![](../Content/Script/01_computer/bilder/newton_bsp1_step_00.png)
+
+---
+
+class: rotate
+
+# Beispiel 1 – Iterationsschritt 1
+
+![](../Content/Script/01_computer/bilder/newton_bsp1_step_01.png)
+
+---
+
+class: rotate
+
+# Beispiel 1 – Iterationsschritt 2
+
+![](../Content/Script/01_computer/bilder/newton_bsp1_step_02.png)
+
+---
+
+class: rotate
+
+# Beispiel 1 – Iterationsschritt 3
+
+![](../Content/Script/01_computer/bilder/newton_bsp1_step_03.png)
+
+---
+
+# Beispiel 2
+
+* Funktion: $\sf f(x) = \sin(x) - 0.5$
+
+* Ableitung: $\sf f'(x) = \cos(x)$
+
+* Startwert: $\sf x_0 = 1.3$
+
+---
+
+class: rotate
+
+# Beispiel 1
+
+```
+Startwert x_0 = 1.3000
+
+Iterationsschritt i =  1, x_i = 1.3000
+   f(x_i)  = 0.4636
+   fp(x_i) = 0.2675
+   x_(i+1) = -0.4329
+
+Iterationsschritt i =  2, x_i = -0.4329
+   f(x_i)  = -0.9195
+   fp(x_i) = 0.9077
+   x_(i+1) = 0.5801
+```
+
+---
+
+class: rotate
+
+# Beispiel 1
+
+```
+Iterationsschritt i =  3, x_i = 0.5801
+   f(x_i)  = 0.0481
+   fp(x_i) = 0.8364
+   x_(i+1) = 0.5226
+
+Iterationsschritt i =  4, x_i = 0.5226
+   f(x_i)  = -0.0009
+   fp(x_i) = 0.8665
+   x_(i+1) = 0.5236
+```
+
+---
+
+class: rotate
+
+# Beispiel 2 – Iterationsschritt 0
+
+![](../Content/Script/01_computer/bilder/newton_bsp2_step_00.png)
+
+---
+
+class: rotate
+
+# Beispiel 2 – Iterationsschritt 1
+
+![](../Content/Script/01_computer/bilder/newton_bsp2_step_01.png)
+
+---
+
+class: rotate
+
+# Beispiel 2 – Iterationsschritt 2
+
+![](../Content/Script/01_computer/bilder/newton_bsp2_step_02.png)
+
+---
+
+class: rotate
+
+# Beispiel 2 – Iterationsschritt 3
+
+![](../Content/Script/01_computer/bilder/newton_bsp2_step_03.png)
+
+---
+
 # Zusammenfassung
 
-* ABC
+* Algorithmen sind die Grundlage zur computergestützten Lösung von Problemen 
+
+* Viele verschiedene Algorithmen für die gleiche Lösung
+
+* Numerische Verfahren sind insbesondere für Ingenieure und Naturwissenschaftler wichtig

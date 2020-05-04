@@ -24,7 +24,7 @@
 
 	\node [decision, below=of loop2] (check_max) {$A_j < m_w$};
 
-	\node [block, below=of check_max] (set_max) {$m_p=j$};
+	\node [block, below=of check_max] (set_max) {$m_p=j$\\$m_w=A_j$};
 
 	\node [block, left of=init2, node distance=3cm] (swap) {$A_i \leftrightarrow A_{m_p}$};
 
