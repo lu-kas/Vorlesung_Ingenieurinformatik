@@ -190,4 +190,5 @@
     url: /Exercises/01_computer/02_zeichendarstellung/zeichendarstellung
   - title: 1.3 – Intervallschachtelung
     url: /Exercises/01_computer/03_intervallschachtelung/intervallschachtelung
-
+  - title: 1.4 – Sieb des Eratosthenes
+    url: /Exercises/01_computer/04_eratosthenes/eratosthenes
