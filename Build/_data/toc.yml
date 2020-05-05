@@ -191,3 +191,9 @@
     url: /Exercises/01_computer/04_eratosthenes/eratosthenes
   - title: 1.5 – Größter gemeinsamer Teiler
     url: /Exercises/01_computer/05_ggt/ggt
+  - title: 1.6 – Majorität
+    url: /Exercises/01_computer/06_majoritaet/majoritaet
+  - title: 1.7 – Prozessorarchitekturen
+    url: /Exercises/01_computer/07_architekturen/architekturen
+  - title: 1.8 – Betriebssysteme
+    url: /Exercises/01_computer/08_betriebssysteme/betriebssysteme
