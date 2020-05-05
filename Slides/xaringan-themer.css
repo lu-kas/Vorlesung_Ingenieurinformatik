@@ -200,6 +200,7 @@ h1, h2, h3 {
 
 .remark-slide-content {
   background-color: var(--color_white);
+/*   background-color: var(--color_red); */
   font-size: 20pt;
   padding: 1em 4em 1em 4em;
 }
@@ -235,7 +236,7 @@ h1, h2, h3 {
   font-size: 10pt;
 }
 
-strong{color:#d33682;}
+strong{color: var(--color_blue_dark);}
 a, a > code {
   color: var(--color_blue_dark);
   text-decoration: none;
@@ -270,8 +271,20 @@ a, a > code {
     width: 600px;
 /*     background: #DDD; */
     transform-origin: 0 0;
-    transform: rotate(-90deg) translateX(-580px) translateY(-100px) ;
+    transform: rotate(-90deg) translateX(-680px) translateY(-100px);
+    margin-top: -700px;
 }
+
+
+/* .rotate pre { */
+/*     position: absolute; */
+/*     text-align:center; */
+/*     top: 0%; */
+/*     left: 50%; */
+/*     width: 600px; */
+/*     background: #DDD; */
+/* } */
+
 
 .topic h1 {
 /*     position: absolute; */

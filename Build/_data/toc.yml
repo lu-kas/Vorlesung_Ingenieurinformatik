@@ -109,8 +109,12 @@
     - url: /Script/01_computer/012_digitale_informationen
     - url: /Script/01_computer/013_zahlendarstellung
 
-#   - title: Algorithmen
-#     url: /Script/01_computer/02_algorithmen
+  - url: /Script/01_computer/02_algorithmen
+    subsections:
+    - url: /Script/01_computer/021_sortieralgorithmen
+    - url: /Script/01_computer/022_eigenschaften
+    - url: /Script/01_computer/023_numerische_algorithmen
+#     - url: /Script/01_computer/024_smp
 
 #   - title: Hardware
 #     url: /Script/01_computer/03_hardware
