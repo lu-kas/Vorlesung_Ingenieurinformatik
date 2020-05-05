@@ -192,3 +192,5 @@
     url: /Exercises/01_computer/03_intervallschachtelung/intervallschachtelung
   - title: 1.4 – Sieb des Eratosthenes
     url: /Exercises/01_computer/04_eratosthenes/eratosthenes
+  - title: 1.5 – Größter gemeinsamer Teiler
+    url: /Exercises/01_computer/05_ggt/ggt
