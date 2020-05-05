@@ -16,29 +16,29 @@
 
 #######################################################################################
 # Jekyll site settings
-title: Ingenieurinformatik 2020
+title: Ingenieurinformatik
 author: Prof. Dr. Lukas Arnold
-email: YOUR EMAIL
+email: arnold@uni-wuppertal.de
 description: >-
-  Dieses Buch soll als Skript zur Ingeneursinformatik Verlesung 2020 an der Bergischen Universität Wuppertal dienen.
+  Dieses Buch ist das Skript zur Vorlesung 'Ingeneursinformatik' an der Bergischen Universität Wuppertal.
 
 baseurl:
-url: https://lu-kas.github.io
+url: https://cce.uni-wuppertal.de
 
 
 #######################################################################################
 # Jupyter Book settings
 
 # Main page settings
-footer_text: TODO, Z.B. Fragen / Korrekturen / Anregungen an XXX
+footer_text: <img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /> – <a href="mailto:cce-inginf@lists.uni-wuppertal.de">Kontakt für Anmerkungen und Vorschläge</a>
 
 # Sidebar settings
 show_sidebar: true                # Show the sidebar. Only set to false if your only wish to host a single page.
 collapse_inactive_chapters: true  # Whether to collapse the inactive chapters in the sidebar
 collapse_inactive_sections: true  # Whether to collapse the sub-sections within a non-active section in the sidebar
-textbook_logo: images/logo_cce_combined.png               # A logo to be displayed at the top of your textbook sidebar. Should be square
-textbook_logo_link: https://jupyterbook.org/                    # A link for the logo.
-sidebar_footer_text: Kein Footer, oder doch?
+textbook_logo: images/cce_logo_text_bottom.png              # A logo to be displayed at the top of your textbook sidebar. Should be square
+textbook_logo_link: https://cce.uni-wuppertal.de                    # A link for the logo.
+sidebar_footer_text: 
 number_toc_chapters: true         # Whether to add numbers to chapterse in your Table of Contents. If true, you can control this at the Chapter level in _data/toc.yml
 
 # Search settings
@@ -83,7 +83,7 @@ use_show_widgets_button: true                # If 'true', display a button to al
 # Download settings
 use_download_button: true                # If 'true', display a button to download a zip file for the notebook
 download_button_text: Download                # The text that download buttons will contain
-download_page_header: Made with Jupyter Book                # A header that will be displayed at the top of and PDF-printed page
+download_page_header: Vorlesung Ingenieurinformatik --- Stand ist veraltet --- aktuelle Version of cce.uni-wuppertal.de                # A header that will be displayed at the top of and PDF-printed page
 
 #######################################################################################
 # Jupyter book extensions and additional features
@@ -119,11 +119,11 @@ defaults:
   values:
     layout: default
     toc: true
-    toc_label: '  On this page'
+    toc_label: '  Auf dieser Seite'
     toc_icon: list-ul
     excerpt: ''
 
-favicon_path: images/logo/favicon.ico
+favicon_path: images/cce_logo_standalone_icon.png
 
 # Markdown Processing
 markdown: kramdown

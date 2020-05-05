@@ -1,5 +1,6 @@
-bilder/*.aux
-bilder/*.log
+*~
+**/bilder/*.aux
+**/bilder/*.log
 .DS_Store
 .ipynb_checkpoints
 .sass-cache

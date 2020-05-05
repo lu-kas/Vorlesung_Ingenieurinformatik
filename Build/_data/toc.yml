@@ -22,8 +22,14 @@
 # See the links below for an example.
 
 # Top-level page
-- title: Home
-  url: /Script/intro
+- url: /Overview/uebersicht
+  not_numbered: true
+
+- url: /Overview/informatik
+  not_numbered: true
+  
+- title: CCE
+  url: /Overview/cce
   not_numbered: true
 
 # External link
@@ -37,45 +43,45 @@
 #  search: true
 
 # Zero chapter
-- title: Organisatorisches
-  url: /Script/01_organisatorisches/01_organisatorisches
-  not_numbered: true
-  expand_sections: false
-  sections:
-  - title: Moodle
-    url: /Script/01_organisatorisches/02_moodle
-    expand_subsections: false
-  - title: Vorlesungsskript
-    url: /Script/01_organisatorisches/03_vorlesungsskript
-    expand_subsections: false
-  - title: Videoaufzeichung
-    url: /Script/01_organisatorisches/04_videoaufzeichnung
-    expand_subsections: false
-  - title: JupyterLab
-    url: /Script/01_organisatorisches/05_jupyterlab
-    expand_subsections: false
-  - title: Beispieldatensätze
-    url: /Script/01_organisatorisches/06_beispieldatensaetze
-    expand_subsections: false
-  - title: Kontakt
-    url: /Script/01_organisatorisches/99_kontakt
-    expand_subsections: false
+# - title: Organisatorisches SoSe 2020
+#   url: /Overview/01_organisatorisches/01_organisatorisches
+#   not_numbered: true
+#   expand_sections: false
+#   sections:
+#   - title: Moodle
+#     url: /Overview/01_organisatorisches/02_moodle
+#     expand_subsections: false
+#   - title: Vorlesungsskript
+#     url: /Overview/01_organisatorisches/03_vorlesungsskript
+#     expand_subsections: false
+#   - title: Videoaufzeichung
+#     url: /Overview/01_organisatorisches/04_videoaufzeichnung
+#     expand_subsections: false
+#   - title: JupyterLab
+#     url: /Overview/01_organisatorisches/05_jupyterlab
+#     expand_subsections: false
+#   - title: Beispieldatensätze
+#     url: /Overview/01_organisatorisches/06_beispieldatensaetze
+#     expand_subsections: false
+#   - title: Kontakt
+#     url: /Overview/01_organisatorisches/99_kontakt
+#     expand_subsections: false
 
-# First chapter
-- title: Einführung
-  url: /Script/02_einfuehrung/01_uebersicht
-  not_numbered: true
-  expand_sections: false
-  sections:
-  - title: Begleitendes Experiment
-    url: /Script/02_einfuehrung/02_experiment
-    expand_subsections: false
-  - title: Themenübersicht
-    url: /Script/02_einfuehrung/03_themen
-    expand_subsections: false
-  - title: Aufbau der Vorlesung
-    url: /Script/02_einfuehrung/04_vorlesung
-    expand_subsections: false
+# # First chapter
+# - title: Einführung
+#   url: /Overview/02_einfuehrung/01_uebersicht
+#   not_numbered: true
+#   expand_sections: false
+#   sections:
+#   - title: Begleitendes Experiment
+#     url: /Overview/02_einfuehrung/02_experiment
+#     expand_subsections: false
+#   - title: Themenübersicht
+#     url: /Overview/02_einfuehrung/03_themen
+#     expand_subsections: false
+#   - title: Aufbau der Vorlesung
+#     url: /Overview/02_einfuehrung/04_vorlesung
+#     expand_subsections: false
 
 # Divider for meta-pages and content page
 - divider: true
@@ -99,71 +105,72 @@
     url: /Script/01_computer/01_digitalisierung
     expand_subsections: false
     subsections:
-    - title: Analoge Informationen
-      url: /Script/01_computer/011_analoge_informationen
-    - title: Digitale Informationen
-      url: /Script/01_computer/012_digitale_informationen
-    - title: Digitale Zahlendarstellung
-      url: /Script/01_computer/013_zahlendarstellung
+    - url: /Script/01_computer/011_analoge_informationen
+    - url: /Script/01_computer/012_digitale_informationen
+    - url: /Script/01_computer/013_zahlendarstellung
 
-  - title: Algorithmen
-    url: /Script/01_computer/02_algorithmen
-
-  - title: Hardware
-    url: /Script/01_computer/03_hardware
-    expand_subsections: false
+  - url: /Script/01_computer/02_algorithmen
     subsections:
-    - title: Geschichtliche Meilensteine
-      url: /Script/01_computer/031_geschichte
-    - title: Schaltkreise
-      url: /Script/01_computer/032_schaltkreise
-    - title: Funktionsweise Computer
-      url: /Script/01_computer/033_funktionsweise_computer
+    - url: /Script/01_computer/021_sortieralgorithmen
+    - url: /Script/01_computer/022_eigenschaften
+    - url: /Script/01_computer/023_numerische_algorithmen
+#     - url: /Script/01_computer/024_smp
 
-  - title: Software
-    url: /Script/01_computer/04_software
+#   - title: Hardware
+#     url: /Script/01_computer/03_hardware
+#     expand_subsections: false
+#     subsections:
+#     - title: Geschichtliche Meilensteine
+#       url: /Script/01_computer/031_geschichte
+#     - title: Schaltkreise
+#       url: /Script/01_computer/032_schaltkreise
+#     - title: Funktionsweise Computer
+#       url: /Script/01_computer/033_funktionsweise_computer
 
-  - title: Zusammenfassung
-    url: /Script/01_computer/98_zusammenfassung
+#   - title: Software
+#     url: /Script/01_computer/04_software
 
-  - title: Übungen
-    url: /Script/01_computer/99_uebungen
+#   - title: Zusammenfassung
+#     url: /Script/01_computer/98_zusammenfassung
 
-# Second chapter
-- title: Python
-  url: /Script/python/einleitung
-  expand_sections: false
-  sections:
-  - title: Einführung in Jupyter
-    url: /Script/python/jupyter
-  - title: Flusskontrolle
-    url: /Script/python/flusskontrolle
-  - title: Funktionen und Module
-    url: /Script/python/funktionen
+#   - title: Übungen
+#     url: /Script/01_computer/99_uebungen
 
-# Third chapter
-- title: Datenanalyse
-  url: /Script/datenanalyse/einleitung
-  expand_sections: false
-  sections:
-  - title: Datenstrukturen und Einlesen von Daten
-    url: /Script/datenanalyse/datenstrukturen
-  - title: Daten graphisch darstellen
-    url: /Script/datenanalyse/plotten
-  - title: Fitten und Optimieren
-    url: /Script/datenanalyse/fitten
+# # Second chapter
+# - title: Python
+#   url: /Script/python/einleitung
+#   expand_sections: false
+#   sections:
+#   - title: Einführung in Jupyter
+#     url: /Script/python/jupyter
+#   - title: Flusskontrolle
+#     url: /Script/python/flusskontrolle
+#   - title: Funktionen und Module
+#     url: /Script/python/funktionen
 
-# Fourth chapter
-- title: Numerik
-  url: /Script/numerik/einleitung
-  expand_section: false
-  sections:
-  - title: Integrale und Ableitungen
-    url: /Script/numerik/integrale_ableitungen
-  - title: Lösung gewöhhnlicher Differentialgleichungen
-    url: /Script/numerik/ode
-  - title: Lösung partieller Differentialgleichungen
-    url: /Script/numerik/pde
+# # Third chapter
+# - title: Datenanalyse
+#   url: /Script/datenanalyse/einleitung
+#   expand_sections: false
+#   sections:
+#   - title: Datenstrukturen und Einlesen von Daten
+#     url: /Script/datenanalyse/datenstrukturen
+#   - title: Daten graphisch darstellen
+#     url: /Script/datenanalyse/plotten
+#   - title: Fitten und Optimieren
+#     url: /Script/datenanalyse/fitten
+
+# # Fourth chapter
+# - title: Numerik
+#   url: /Script/numerik/einleitung
+#   expand_section: false
+#   sections:
+#   - title: Integrale und Ableitungen
+#     url: /Script/numerik/integrale_ableitungen
+#   - title: Lösung gewöhhnlicher Differentialgleichungen
+#     url: /Script/numerik/ode
+#   - title: Lösung partieller Differentialgleichungen
+#     url: /Script/numerik/pde
 
 
 # Divider for meta-pages and content page
@@ -173,10 +180,12 @@
 - header: Aufgabensammlung
 
 # Aufgabensammlung
-- title: Computertechnik
-  url: Exercises/01_computer/uebersicht
+- url: Exercises/01_computer/uebersicht
   not_numbered: true
   expand_section: false
   sections:
-  - title: Aufgabe A
-    url: /Exercises/01_computer/01_aufgabe_A/aufgabe_A
+  - title: 1.1 – Zahlendarstellung
+    url: /Exercises/01_computer/01_zahlendarstellung/zahlendarstellung
+  - title: 1.2 – Darstellung von Zeichen
+    url: /Exercises/01_computer/02_zeichendarstellung/zeichendarstellung
+

@@ -1,4 +1,4 @@
-FROM ubuntu:19.04
+FROM ubuntu:18.04
 
 # ----------------- MISC ---------------- #
 RUN apt update && apt -y install vim less git
