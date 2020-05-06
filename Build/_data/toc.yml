@@ -124,8 +124,13 @@
     - url: /Script/01_computer/032_komponenten
     - url: /Script/01_computer/033_funktionsweise_computer
 
-#   - title: Software
-#     url: /Script/01_computer/04_software
+  - title: Software
+    url: /Script/01_computer/04_software
+    expand_subsections: false
+    subsections:
+    - url: /Script/01_computer/041_betriebssysteme
+    - url: /Script/01_computer/042_softwareentwicklung
+    - url: /Script/01_computer/043_dateisystem
 
 #   - title: Zusammenfassung
 #     url: /Script/01_computer/98_zusammenfassung
