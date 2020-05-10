@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Ingenieurinformatik</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Lukas Arnold" />
+    <script src="libs/header-attrs-2.1/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+&lt;center&gt;
+&lt;img src="logos/cce_logo_text_bottom.png" height="600px" /&gt;
+
+&lt;!---
+&lt;h1&gt;Ingenieurinformatik&lt;/h1&gt;
+
+&lt;h2&gt;Vorlesung 1.0 – Übersicht Computer&lt;/h2&gt;
+
+Lukas Arnold &lt;br&gt;&lt;br&gt;
+Computational Civil Engineering &lt;br&gt;
+Bergische Universtität Wuppertal
+---&gt;
+
+&lt;/center&gt;
+
+---
+
+class: topic
+
+# Computersoftware
+
+
+
+---
+
+# Software
+
+Erst durch die Software, wird der Computer zu dem Werkzeug, welches wir kennen.
+
+---
+
+# Lizenzen
+
+- frei, wie Freiheit
+
+- frei, wie Freibier
+
+- quelloffen
+
+- proprietär
+
+
+---
+
+class: topic
+
+# Betriebssystem
+
+
+---
+
+# Betriebssystem
+
+.pull-left[![](https://upload.wikimedia.org/wikipedia/commons/6/66/Operating_system_placement-de.svg)]
+
+.pull-right[
+- Bildschirmausgabe und Tastatureingabe
+- Grafische Darstellung der Benutzeroberfläche
+- Dateisystem
+- Arbeitsspeicher
+- Netwerk
+]
+
+---
+
+class: rotate
+
+# Abstraktion
+
+![](../Content/Script/01_computer/bilder/os.svg)
+
+
+---
+
+class: rotate
+
+# Programm, Prozess, Thread
+
+![](../Content/Script/01_computer/bilder/prozess-programm-thread.svg)
+
+---
+
+# Mehrprozessbetrieb
+
+* mehrere Prozesse gleichzeitig
+
+* Stückchen der verschiedenen Prozesse werden hintereinander ausgeführt
+
+* Beim Wechsel zwischen den Prozessen merkt sich das OS den Status (Register, Speicher) eines Prozesses
+
+---
+
+
+# Betriebssysteme
+
+| Beispiele Windows-Familie: | Beispiele UNIX- und BSD-Familie: | Beispiel Apple (aufbauend auf BSD): |
+| :-- | :-- | :-- |
+| &lt;img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Windows_8_logo_and_wordmark.svg" width="150" /&gt; | &lt;img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" width="50" /&gt; | &lt;img src="https://upload.wikimedia.org/wikipedia/commons/2/21/MacOS_wordmark_%282017%29.svg" width="100" /&gt; |
+| &lt;ul&gt;&lt;li&gt;Windows 10&lt;/li&gt;&lt;li&gt;Windows 8 (NT 6.2)&lt;/li&gt;&lt;li&gt;Windows Phone 8 (NT 6.2)&lt;/li&gt;&lt;/ul&gt; | &lt;ul&gt;&lt;li&gt;FreeBSD&lt;/li&gt;&lt;li&gt;AIX&lt;/li&gt;&lt;li&gt;Linux&lt;/li&gt;&lt;li&gt;Android&lt;/li&gt;&lt;li&gt;Firefox OS&lt;/li&gt;&lt;/ul&gt; | &lt;ul&gt;&lt;li&gt;OSX 10.14&lt;/li&gt;&lt;li&gt;iOS 13&lt;/li&gt;&lt;/ul&gt; |
+
+
+---
+
+class: topic
+
+# Beispiel – Linux
+
+---
+
+class: rotate
+
+# UNIX Geschichte
+
+![Geschichte von UNIX](https://upload.wikimedia.org/wikipedia/commons/7/77/Unix_history-simple.svg)
+
+---
+
+# Philosophie von UNIX
+
+Die UNIX-artigen Betriebssysteme und die dafür entwickelten Anwendungen verfolgen folgende Philosophie:
+
+1. Schreibe Computerprogramme so, dass sie nur eine Aufgabe erledigen und diese gut machen.
+
+1. Schreibe Programme so, dass sie zusammenarbeiten.
+
+1. Schreibe Programme so, dass sie Textströme verarbeiten, denn das ist eine universelle Schnittstelle.
+
+---
+
+# Beispiel – Zusammenarbeit 
+
+- `wc`: zählt z.B. die Anzahl von Zeilen in der Eingabe
+
+- `find`: findet Dateien, z.B. nach Änderungsdatum
+
+- `grep`: sucht nach vorgegebenen Begriffen in der Eingabe
+
+``` bash
+find . -mtime -15m -type f | grep -i info | wc -l
+```
+
+---
+
+class: topic
+
+# Softwareentwicklung
+
+---
+
+# Erstellen von Software
+
+1. Erstellung des Quellcodes, z.B. mit einem Texteditor
+
+1. Erstellung des Machinencodes, z.B. mit einem Compiler
+
+1. Hinzunahme der vom Betriebssytem und anderen Quellen bereitgestellten Schnittstellen (Bibliotheken) und das Erstellen eines ausführbaren Programms, z.B. mit einem Linker
+
+Hinweis: Python ist eine Skriptsprache
+
+---
+
+# Beispiel – C
+
+Quellcode (in C):
+``` C
+#include &lt;stdio.h&gt;
+int main (int argc, char* argv)
+{
+  int a = 5;
+  int b = a * 2;
+  printf ("Der Wert von b lautet: %d\n", b);
+}
+```
+
+---
+
+# Beispiel – C
+
+Kompilieren mit dem GNU Compiler:
+``` bash
+gcc -c example.c -o example.o
+```
+
+Linken mit dem GNU Compiler:
+``` bash
+gcc example.o -o example
+```
+
+Dateigrößen:
+
+| Quellcode | Compiliertes Objekt | Ausführbares Programm |
+| :---------: | :---------: | :-------: |
+|    141 B    |    744 B    |   8300 B  |
+
+
+---
+
+class: topic
+
+# Dateisystem
+
+---
+
+# Motivation
+
+* Daten auch nach dem Abschalten des Computers erhalten
+
+* Organisation der Daten erfolgt in Dateien und Verzeichnissen
+
+---
+
+# Datei
+
+- Dateninhalten: z.B. Messdaten, Texte, Programme. Je nach Datenformat können sie nur von spezieller Software interpretiert werden.
+
+- Attributen: z.B. Dateiname, Dateigröße, Erstellungsdatum, Datum der letzen Änderung, Zugriffsrechte.
+
+---
+
+# Dateitypen
+
+- `.txt`: einfache Textdatei, welche aus ASCII Zeichen besteht und von jedem Texteditor verstanden wird.
+- `.py`: Pythonskript, kann mit jedem Texteditor gelesen und verändert werden und von Python interpretiert werden.
+- `.mp3`: Audiodatei mit der MPEG Audio Layer III-Kodierung
+- `.zip`: ZIP-Archiv, komprimierter Dateikontainer
+- `.exe` oder `.app`: Programm für Windows oder OSX
+
+---
+
+# Verzeichnisstruktur
+
+.center[![](../Content/Script/01_computer/bilder/verzeichnis.svg)]
+
+---
+
+class: rotate
+
+# OS Verzeichnisstrukturen 
+
+![](https://upload.wikimedia.org/wikipedia/de/1/1f/Filesystem.svg)
+
+---
+
+# Dateirechte
+
+.center[![](../Content/Script/01_computer/bilder/rwx.svg)]
+
+```
+&gt; ll python-vorlesung3.pdf
+-rw-r--r-- 1 larnold staff 112859 May 5 22:06 python-vorlesung3.pdf
+```
+
+---
+
+# Zusammenfassung
+
+* Computer sind Hardware und Software
+
+* Betriebssysteme abstrahieren die Hardware
+
+* Dateisysteme organisieren und speichern langfristig Daten
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "solarized-light",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9",
+"slideNumberFormat": "%current%"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  /* Replace <script> tags in slides area to make them executable
+   *
+   * Runs after post-processing of markdown source into slides and replaces only
+   * <script>s on the last slide of continued slides using the .has-continuation
+   * class added by xaringan. Finally, any <script>s in the slides area that
+   * aren't executed are commented out.
+   */
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container:not(.has-continuation) script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+  var scriptsNotExecuted = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container.has-continuation script'
+  );
+  if (!scriptsNotExecuted.length) return;
+  for (var i = 0; i < scriptsNotExecuted.length; i++) {
+    var comment = document.createComment(scriptsNotExecuted[i].outerHTML)
+    scriptsNotExecuted[i].parentElement.replaceChild(comment, scriptsNotExecuted[i])
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
