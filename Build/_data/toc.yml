@@ -116,19 +116,21 @@
     - url: /Script/01_computer/023_numerische_algorithmen
 #     - url: /Script/01_computer/024_smp
 
-#   - title: Hardware
-#     url: /Script/01_computer/03_hardware
-#     expand_subsections: false
-#     subsections:
-#     - title: Geschichtliche Meilensteine
-#       url: /Script/01_computer/031_geschichte
-#     - title: Schaltkreise
-#       url: /Script/01_computer/032_schaltkreise
-#     - title: Funktionsweise Computer
-#       url: /Script/01_computer/033_funktionsweise_computer
+  - title: Hardware
+    url: /Script/01_computer/03_hardware
+    expand_subsections: false
+    subsections:
+    - url: /Script/01_computer/031_geschichte
+    - url: /Script/01_computer/032_komponenten
+    - url: /Script/01_computer/033_funktionsweise_computer
 
-#   - title: Software
-#     url: /Script/01_computer/04_software
+  - title: Software
+    url: /Script/01_computer/04_software
+    expand_subsections: false
+    subsections:
+    - url: /Script/01_computer/041_betriebssysteme
+    - url: /Script/01_computer/042_softwareentwicklung
+    - url: /Script/01_computer/043_dateisystem
 
 #   - title: Zusammenfassung
 #     url: /Script/01_computer/98_zusammenfassung
@@ -194,3 +196,9 @@
     url: /Exercises/01_computer/04_eratosthenes/eratosthenes
   - title: 1.5 – Größter gemeinsamer Teiler
     url: /Exercises/01_computer/05_ggt/ggt
+  - title: 1.6 – Majorität
+    url: /Exercises/01_computer/06_majoritaet/majoritaet
+  - title: 1.7 – Prozessorarchitekturen
+    url: /Exercises/01_computer/07_architekturen/architekturen
+  - title: 1.8 – Betriebssysteme
+    url: /Exercises/01_computer/08_betriebssysteme/betriebssysteme
