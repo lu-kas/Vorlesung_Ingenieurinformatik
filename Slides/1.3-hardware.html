@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Ingenieurinformatik</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Lukas Arnold" />
+    <script src="libs/header-attrs-2.1/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+&lt;center&gt;
+&lt;img src="logos/cce_logo_text_bottom.png" height="600px" /&gt;
+
+&lt;!---
+&lt;h1&gt;Ingenieurinformatik&lt;/h1&gt;
+
+&lt;h2&gt;Vorlesung 1.0 – Übersicht Computer&lt;/h2&gt;
+
+Lukas Arnold &lt;br&gt;&lt;br&gt;
+Computational Civil Engineering &lt;br&gt;
+Bergische Universtität Wuppertal
+---&gt;
+
+&lt;/center&gt;
+
+---
+
+class: topic
+
+# Computerhardware
+
+
+
+---
+
+class: rotate
+
+# Beispiel Computerhardware
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/03/Samsung_Galaxy_S7_and_S7_Edge.png)
+
+---
+
+class: rotate
+
+# Beispiel Computerhardware
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/T440.jpg/1024px-T440.jpg) 
+
+---
+
+class: rotate
+
+# Beispiel Computerhardware
+
+![](https://www.fz-juelich.de/SharedDocs/Bilder/IAS/JSC/EN/galeries/JURECA/JURECA.jpg?__blob=poster) 
+
+
+---
+
+class: topic
+
+# Geschichte der Computer
+
+---
+
+class: rotate
+
+# Alan Turing
+
+![](https://anthrowiki.at/images/d/d8/Alan_Turing_1.jpg)
+
+---
+
+# 1936 – Alan Turing
+
+.pull-left[&lt;img src="https://anthrowiki.at/images/d/d8/Alan_Turing_1.jpg" height="400px" /&gt;]
+.pull-right[&lt;img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Turingmaschine.svg" width="600px" /&gt;]
+
+
+
+---
+
+# 1938 – Konrath Zuse
+
+.pull-left[&lt;img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Konrad_Zuse_%281992%29.jpg" height="400px" /&gt;]
+.pull-right[&lt;img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Z3_Deutsches_Museum.JPG" height="400px" /&gt;]
+
+
+---
+
+# 1945 – John von Neumann
+
+.pull-left[&lt;img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/JohnvonNeumann-LosAlamos.gif" height="400px" /&gt;]
+.pull-right[&lt;img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Von-Neumann_Architektur.svg" height="400px" /&gt;]
+
+---
+
+# 1958 – Jack Kilby
+
+.pull-left[&lt;img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Jack_Kilby.jpg" height="400px" /&gt;]
+.pull-right[&lt;img src="https://jooinn.com/images/integrated-circuit-4.jpg" height="400px" /&gt;]
+
+
+---
+
+class: rotate
+
+# 1837 – Analytical Engine
+
+![](https://upload.wikimedia.org/wikipedia/commons/c/cc/Babbages_Analytical_Engine%2C_1834-1871._%289660574685%29.jpg)
+
+---
+
+class: rotate
+
+# 1941 – Zuse Z3
+
+![](https://upload.wikimedia.org/wikipedia/commons/4/4c/Z3_Deutsches_Museum.JPG)
+
+
+---
+
+class: rotate
+
+# 1976 - Cray 1
+
+![](https://upload.wikimedia.org/wikipedia/commons/f/f7/Cray-1-deutsches-museum.jpg)
+
+---
+
+class: rotate
+
+# 1977 - Apple II
+
+![](https://upload.wikimedia.org/wikipedia/commons/b/b1/Apple_II_Plus%2C_Museum_of_the_Moving_Image.jpg)
+
+---
+
+class: rotate
+
+# 2020 - Apple MacBook Pro
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Late_2016_MacBook_Pro.jpg/1280px-Late_2016_MacBook_Pro.jpg)
+
+
+---
+
+class: rotate
+
+# Hochleistungsrechner – HPC
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Supercomputers-history.svg/1024px-Supercomputers-history.svg.png)
+
+
+---
+
+class: topic
+
+# Aufbau eines Computers
+
+
+---
+
+
+# Transistoren
+
+.center[![](https://upload.wikimedia.org/wikipedia/commons/c/c1/Cmos_and.svg)]
+
+
+---
+
+# Logikgatter
+
+| ![](https://upload.wikimedia.org/wikipedia/commons/c/c2/IEC_AND_label.svg) | ![](https://upload.wikimedia.org/wikipedia/commons/4/40/IEC_OR_label.svg) | ![](https://upload.wikimedia.org/wikipedia/commons/1/15/Halbaddierer_Aufbau.svg) |
+| :-: | :-: | :-: |
+| UND-Gatter | ODER-Gatter | Halbaddierer |
+| &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;A&lt;/th&gt;&lt;th&gt;B&lt;/th&gt;&lt;th&gt;Y&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;0&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; | &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;A&lt;/th&gt;&lt;th&gt;B&lt;/th&gt;&lt;th&gt;Y&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;1&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; | &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;A&lt;/th&gt;&lt;th&gt;B&lt;/th&gt;&lt;th&gt;c&lt;br&gt;&lt;/th&gt;&lt;th&gt;s&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;br&gt;&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;0&lt;br&gt;&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; |
+
+---
+
+class: rotate
+
+# Mooresches-Gesetz
+
+| Mikrochip | Anzahl der Transistoren | Technologieknoten | Entwicklungsjahr |
+| :-: | :-: | :-: | :-: |
+| Intel 4004 | 2.300 | 10000 nm  | 1971 |
+| Intel Pentium (P5) | 3.100.000 | 800 nm | 1993 |
+| Intel Core 2 (Yorkfield) pro Die | 410.000.000 | 45 nm | 2007 |
+| Intel Itanium 2 Tukwila | 2.046.000.000 | 65 nm | 2010 |
+| AMD Tahiti XT | 4.312.711.873 | 28 nm | 2011 |
+| Nvidia Kepler GK110 | 7.100.000.000 | 28 nm | 2012 |
+| AMD Epyc - 32 Kern Prozessor | 19.200.000.000 | 14 nm | 2017 | 
+
+---
+
+class: rotate
+
+# Mooresches-Gesetz
+
+![](https://upload.wikimedia.org/wikipedia/commons/8/8b/Moore%27s_Law_Transistor_Count_1971-2018.png)
+
+---
+
+# Von-Neumann-Architektur
+
+.center[![](https://upload.wikimedia.org/wikipedia/commons/d/db/Von-Neumann_Architektur.svg)]
+
+---
+
+# x86 Architektur
+
+| Generation | Jahr | Beispiel |
+| ---------- | :--: | :------- |
+| 1          | 1978 | Intel 8086 |
+| 1          | 1982 | Intel 80286 |
+| ...        | ...  | ... |
+| 8          | 2003 | Athlon 64, Opteron |
+| 9          | 2008 | Intel Core i3/i5/i7, AMD Phenom II |
+
+---
+
+# Speichermedien
+
+- Register: extrem schneller Speicher auf dem u.A. das Rechenwerk seine Operationen ausführt.
+- Cache: extrem schneller Zwischenspeicher, um die Zugriffszeit auf den Hauptspeicher zu beschleunigen.
+- Arbeitsspeicher: Hier werden die meisten Daten und Anweisungen abgespeichert.
+- SSD: Etwas schneller als eine Festplatte, jedoch mit deutlich kürzeren Zugriffszeiten.
+- Festplatte: langsamster Speicher, jedoch mit einem sehr großem Volumen.
+- CD-ROM / DVD: leicht austauschbare Speicher, im allgemeinen langsam und nur lesbar nutzbar.
+
+
+---
+
+class: rotate
+
+# Speicherhierarchie
+
+![](../Content/Script/01_computer/bilder/speicherhierarchie.png) 
+
+
+---
+
+class: rotate
+
+# AMD Zen Core
+
+![](https://en.wikichip.org/w/images/6/6a/amd_zen_core.png)
+
+---
+
+class: rotate
+
+# AMD Zen Core
+
+![](https://en.wikichip.org/w/images/c/cb/amd_zen_core_%28annotated%29.png)
+
+---
+
+class: rotate
+
+# AMD Zen CCX
+
+![](https://en.wikichip.org/w/images/4/44/amd_zen_ccx_2.png)
+
+---
+
+class: rotate
+
+# AMD Zen CCX
+
+![](https://en.wikichip.org/w/images/a/a7/amd_zen_ccx_2_%28annotated%29.png)
+
+---
+
+class: rotate
+
+# AMD Zen Zepelin
+
+![](https://en.wikichip.org/w/images/3/3f/amd_zen_octa-core_die_shot.png)
+
+---
+
+class: rotate
+
+# AMD Zen Zepelin
+
+![](https://en.wikichip.org/w/images/7/75/amd_zen_octa-core_die_shot_%28annotated%29.png)
+
+
+---
+
+class: rotate
+
+# AMD EPYC
+
+![](https://en.wikichip.org/w/images/4/4d/zen-4zep.svg) 
+
+---
+
+class: topic
+
+# Arbeitsablauf eines Computers
+
+
+---
+
+# Arbeitsablauf
+
+- Instruktionen aus dem Speicher laden und interpretieren
+- Daten zur Ausführung der Instruktionen laden
+- Instruktion ausführen
+- Ergebnisse in den Speicher schreiben
+- Nächste Instruktion laden
+
+---
+
+class: rotate
+
+# Beispiel Ablauf – Takt 1000
+
+![](../Content/Script/01_computer/bilder/arbeitsweise-cpu-1000.svg)
+
+---
+
+class: rotate
+
+# Beispiel Ablauf – Takt 1001
+
+![](../Content/Script/01_computer/bilder/arbeitsweise-cpu-1001.svg)
+
+---
+
+class: rotate
+
+# Beispiel Ablauf – Takt 1002
+
+![](../Content/Script/01_computer/bilder/arbeitsweise-cpu-1002.svg)
+---
+
+class: rotate
+
+# Beispiel Ablauf – Takt 1003
+
+![](../Content/Script/01_computer/bilder/arbeitsweise-cpu-1003.svg)
+---
+
+class: rotate
+
+# Beispiel Ablauf – Takt 1004
+
+![](../Content/Script/01_computer/bilder/arbeitsweise-cpu-1004.svg)
+---
+
+class: rotate
+
+# Beispiel Ablauf – Takt 1005
+
+![](../Content/Script/01_computer/bilder/arbeitsweise-cpu-1005.svg)
+
+---
+
+class: rotate
+
+# Beispiel Ablauf – Takt 1006
+
+![](../Content/Script/01_computer/bilder/arbeitsweise-cpu-1006.svg)
+
+---
+
+class: rotate
+
+# Beispiel Ablauf – Takt 1007
+
+![](../Content/Script/01_computer/bilder/arbeitsweise-cpu-1007.svg)
+
+---
+
+# Zusammenfassung
+
+* Computer existieren seit langer Zeit, sind aber seit den letzten Jahrzehnten in unserem Alltag
+
+* Grundbaustein ist der Transformator, welcher zunehmend kompakt hergestellt werden kann
+
+* Viele einfache Arbeitsschritte mit einer sehr hohen Ausführgeschwindigkeit
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "solarized-light",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9",
+"slideNumberFormat": "%current%"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  /* Replace <script> tags in slides area to make them executable
+   *
+   * Runs after post-processing of markdown source into slides and replaces only
+   * <script>s on the last slide of continued slides using the .has-continuation
+   * class added by xaringan. Finally, any <script>s in the slides area that
+   * aren't executed are commented out.
+   */
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container:not(.has-continuation) script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+  var scriptsNotExecuted = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container.has-continuation script'
+  );
+  if (!scriptsNotExecuted.length) return;
+  for (var i = 0; i < scriptsNotExecuted.length; i++) {
+    var comment = document.createComment(scriptsNotExecuted[i].outerHTML)
+    scriptsNotExecuted[i].parentElement.replaceChild(comment, scriptsNotExecuted[i])
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
