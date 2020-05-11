@@ -5,7 +5,8 @@ FILES = zahlendarstellung_integer32.png \
 	algorithmus.png \
 	alg_findmax.png \
 	alg_selsort.png \
-	alg_bubblesort.png
+	alg_bubblesort.png \
+	storage_hierachy.png
 
 all: $(FILES)
 
