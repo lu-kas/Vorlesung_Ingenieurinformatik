@@ -146,7 +146,7 @@
     expand_subsections: false
     subsections:
     - url: /Script/02_python/0211_arbeiten
-    - url: /Script/02_python/0212_sprache
+    - url: /Script/02_python/0212_syntax
     - url: /Script/02_python/0213_jupyter
     - url: /Script/02_python/0214_operationen
     - url: /Script/02_python/0215_variablen
