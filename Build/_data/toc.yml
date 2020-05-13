@@ -93,7 +93,7 @@
 
 ########################################
 ########################################
-# Kapitel COMPUTERTECHNIK
+# Kapitel COMPUTER
 
 - title: Computer
   url: /Script/01_computer/00_einleitung
@@ -131,6 +131,29 @@
     - url: /Script/01_computer/041_betriebssysteme
     - url: /Script/01_computer/042_softwareentwicklung
     - url: /Script/01_computer/043_dateisystem
+
+
+########################################
+########################################
+# Kapitel PYTHON
+
+- url: /Script/02_python/02_einleitung
+  not_numbered: false
+  expand_sections: false
+
+  sections:
+  - url: /Script/02_python/021_grundlagen
+    expand_subsections: false
+    subsections:
+    - url: /Script/02_python/0211_arbeiten
+    - url: /Script/02_python/0212_sprache
+    - url: /Script/02_python/0213_jupyter
+    - url: /Script/02_python/0214_operationen
+    - url: /Script/02_python/0215_variablen
+    
+
+
+
 
 #   - title: Zusammenfassung
 #     url: /Script/01_computer/98_zusammenfassung
