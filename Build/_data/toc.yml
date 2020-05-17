@@ -142,14 +142,19 @@
   expand_sections: false
 
   sections:
-  - url: /Script/02_python/021_grundlagen
+  - url: /Script/02_python/021_sprache
     expand_subsections: false
     subsections:
     - url: /Script/02_python/0211_arbeiten
-    - url: /Script/02_python/0212_syntax
-    - url: /Script/02_python/0213_jupyter
-    - url: /Script/02_python/0214_operationen
-    - url: /Script/02_python/0215_variablen
+    - url: /Script/02_python/0212_jupyter
+    - url: /Script/02_python/0213_syntax
+    
+  - url: /Script/02_python/022_grundlagen
+    expand_subsections: false
+    subsections:
+    - url: /Script/02_python/0221_operationen
+    - url: /Script/02_python/0222_variablen
+    - url: /Script/02_python/0223_datentypen
     
 
 
@@ -208,6 +213,7 @@
 - url: Exercises/01_computer/uebersicht
   not_numbered: true
   expand_section: false
+  
   sections:
   - title: 1.1 – Zahlendarstellung
     url: /Exercises/01_computer/01_zahlendarstellung/zahlendarstellung
@@ -225,3 +231,7 @@
     url: /Exercises/01_computer/07_architekturen/architekturen
   - title: 1.8 – Betriebssysteme
     url: /Exercises/01_computer/08_betriebssysteme/betriebssysteme
+
+- url: Exercises/02_python/uebersicht
+  not_numbered: true
+  expand_section: false
