@@ -38,7 +38,7 @@ collapse_inactive_chapters: true  # Whether to collapse the inactive chapters in
 collapse_inactive_sections: true  # Whether to collapse the sub-sections within a non-active section in the sidebar
 textbook_logo: images/cce_logo_text_bottom.png              # A logo to be displayed at the top of your textbook sidebar. Should be square
 textbook_logo_link: https://cce.uni-wuppertal.de                    # A link for the logo.
-sidebar_footer_text: 
+sidebar_footer_text: ''
 number_toc_chapters: true         # Whether to add numbers to chapterse in your Table of Contents. If true, you can control this at the Chapter level in _data/toc.yml
 
 # Search settings
@@ -60,16 +60,16 @@ use_jupyterlab: false                     # If 'true', interact links will use J
 
 # Jupyterhub link settings
 use_jupyterhub_button: false              # If 'true', display a button that will direct users to a JupyterHub (that you provide)
-jupyterhub_url: ''                     # The URL for your JupyterHub. If no URL, use ""
+jupyterhub_url: 'https://io.cce.uni-wuppertal.de/inginf_ss2020'                     # The URL for your JupyterHub. If no URL, use ""
 jupyterhub_interact_text: Interact             # The text that interact buttons will contain.
 
 # Binder link settings
 use_binder_button: false                 # If 'true', add a binder button for interactive links
 binderhub_url: https://mybinder.org                        # The URL for your BinderHub. If no URL, use ""
 binder_repo_base: https://github.com/                     # The site on which the textbook repository is hosted
-binder_repo_org: YOUR-ORG                     # The username or organization that owns this repository
-binder_repo_name: YOUR-REPO                        # The name of the repository on the web
-binder_repo_branch: gh-pages                   # The branch on which your textbook is hosted.
+binder_repo_org: lu-kas                     # The username or organization that owns this repository
+binder_repo_name: Vorlesung_Ingenieurinformatik                # The name of the repository on the web
+binder_repo_branch: master                   # The branch on which your textbook is hosted.
 binderhub_interact_text: Interact              # The text that interact buttons will contain.
 
 # Thebelab settings
