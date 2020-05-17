@@ -152,9 +152,11 @@
   - url: /Script/02_python/022_grundlagen
     expand_subsections: false
     subsections:
-    - url: /Script/02_python/0221_operationen
-    - url: /Script/02_python/0222_variablen
-    - url: /Script/02_python/0223_datentypen
+    - url: /Script/02_python/0221_zahlen
+    - url: /Script/02_python/0222_operationen
+    - url: /Script/02_python/0223_variablen
+    - url: /Script/02_python/0224_listen
+    - url: /Script/02_python/0225_zeichenketten
     
 
 
