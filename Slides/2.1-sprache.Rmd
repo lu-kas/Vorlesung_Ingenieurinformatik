@@ -1,0 +1,107 @@
+---
+title: "Ingenieurinformatik"
+subtitle: "Vorlesung 1.0 -- Übersicht Computer"
+author: "Lukas Arnold"
+institute: "Computational Civil Engineering, Bergische Universtität Wuppertal"
+date: "(build: `r Sys.Date()`)"
+
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["xaringan-themer.css"]
+    seal: false
+    nature:
+      highlightStyle: solarized-light
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: "%current%"
+
+---
+
+<center>
+<img src="logos/cce_logo_text_bottom.png" height="600px" />
+
+<!---
+<h1>Ingenieurinformatik</h1>
+
+<h2>Vorlesung 1.0 – Übersicht Computer</h2>
+
+Lukas Arnold <br><br>
+Computational Civil Engineering <br>
+Bergische Universtität Wuppertal
+--->
+
+</center>
+
+---
+
+class: topic
+
+# Python
+
+
+
+---
+
+# Python
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/1280px-Python_logo_and_wordmark.svg.png)
+
+* Einstieg
+* Generalität
+* Erweitbarkeit
+* Verfügbarkeit
+
+---
+
+# Interpretierte Sprache
+
+* Interpreter
+
+* kein klassisches Programm
+
+* Portabilität
+
+* Performance
+
+---
+# Texteditor und Interpreter
+
+![](../Content/Script/02_python/bilder/uebersicht-interpreter_1.png)
+
+---
+# Texteditor und Interpreter
+
+![](../Content/Script/02_python/bilder/python_konsole.png)
+
+---
+# Integrierte Entwicklungsumgebung
+
+![](../Content/Script/02_python/bilder/uebersicht-interpreter_2.png)
+
+---
+# Integrierte Entwicklungsumgebung
+
+![](../Content/Script/02_python/bilder/python_ide.png)
+
+---
+# JupyterLab
+
+![](../Content/Script/02_python/bilder/uebersicht-interpreter_3.png)
+
+---
+# JupyterLab
+
+![](../Content/Script/02_python/bilder/python_jupyterlab.png)
+
+---
+
+# Zusammenfassung
+
+* Computer sind Hardware und Software
+
+* Betriebssysteme abstrahieren die Hardware
+
+* Dateisysteme organisieren und speichern langfristig Daten
+   

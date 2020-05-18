@@ -93,7 +93,7 @@
 
 ########################################
 ########################################
-# Kapitel COMPUTERTECHNIK
+# Kapitel COMPUTER
 
 - title: Computer
   url: /Script/01_computer/00_einleitung
@@ -131,6 +131,38 @@
     - url: /Script/01_computer/041_betriebssysteme
     - url: /Script/01_computer/042_softwareentwicklung
     - url: /Script/01_computer/043_dateisystem
+
+
+########################################
+########################################
+# Kapitel PYTHON
+
+- url: /Script/02_python/02_einleitung
+  not_numbered: false
+  expand_sections: false
+
+  sections:
+  - url: /Script/02_python/021_sprache
+    expand_subsections: false
+    subsections:
+    - url: /Script/02_python/0211_arbeiten
+    - url: /Script/02_python/0212_jupyter
+    - url: /Script/02_python/0213_syntax
+    
+  - url: /Script/02_python/022_grundlagen
+    expand_subsections: false
+    subsections:
+    - url: /Script/02_python/0221_zahlen
+    - url: /Script/02_python/0222_operationen
+    - url: /Script/02_python/0223_variablen
+    - url: /Script/02_python/0224_funktionen
+    - url: /Script/02_python/0225_zeichenketten
+    - url: /Script/02_python/0226_listen
+    - url: /Script/02_python/0227_sammeltypen
+    
+
+
+
 
 #   - title: Zusammenfassung
 #     url: /Script/01_computer/98_zusammenfassung
@@ -185,6 +217,7 @@
 - url: Exercises/01_computer/uebersicht
   not_numbered: true
   expand_section: false
+  
   sections:
   - title: 1.1 – Zahlendarstellung
     url: /Exercises/01_computer/01_zahlendarstellung/zahlendarstellung
@@ -202,3 +235,17 @@
     url: /Exercises/01_computer/07_architekturen/architekturen
   - title: 1.8 – Betriebssysteme
     url: /Exercises/01_computer/08_betriebssysteme/betriebssysteme
+
+# - url: Exercises/02_python/uebersicht
+#   not_numbered: true
+#   expand_section: false
+  
+#   sections:
+#   - title: 2.1 – Markdown
+#     url: /Exercises/02_python/02_markdown/markdown
+#   - title: 2.2 – Operationen
+#     url: /Exercises/02_python/02_operationen/operationen
+#   - title: 2.3 – Variablen
+#     url: /Exercises/02_python/03_variablen/variablen
+#   - title: 2.4 – Listen
+#     url: /Exercises/02_python/03_listen/listen
