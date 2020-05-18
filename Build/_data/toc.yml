@@ -155,8 +155,10 @@
     - url: /Script/02_python/0221_zahlen
     - url: /Script/02_python/0222_operationen
     - url: /Script/02_python/0223_variablen
-    - url: /Script/02_python/0224_zeichenketten
-    - url: /Script/02_python/0225_listen
+    - url: /Script/02_python/0224_funktionen
+    - url: /Script/02_python/0225_zeichenketten
+    - url: /Script/02_python/0226_listen
+    - url: /Script/02_python/0227_sammeltypen
     
 
 
