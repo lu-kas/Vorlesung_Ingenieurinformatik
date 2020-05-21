@@ -236,16 +236,16 @@
   - title: 1.8 – Betriebssysteme
     url: /Exercises/01_computer/08_betriebssysteme/betriebssysteme
 
-# - url: Exercises/02_python/uebersicht
-#   not_numbered: true
-#   expand_section: false
+- url: Exercises/02_python/uebersicht
+  not_numbered: true
+  expand_section: false
   
-#   sections:
-#   - title: 2.1 – Markdown
-#     url: /Exercises/02_python/02_markdown/markdown
-#   - title: 2.2 – Operationen
-#     url: /Exercises/02_python/02_operationen/operationen
-#   - title: 2.3 – Variablen
-#     url: /Exercises/02_python/03_variablen/variablen
-#   - title: 2.4 – Listen
-#     url: /Exercises/02_python/03_listen/listen
+  sections:
+  - title: 2.1 – Markdown
+    url: /Exercises/02_python/01_markdown/markdown
+  - title: 2.2 – Operationen
+    url: /Exercises/02_python/02_operationen/operationen
+  - title: 2.3 – Variablen
+    url: /Exercises/02_python/03_variablen/variablen
+  - title: 2.4 – Listen
+    url: /Exercises/02_python/04_listen/listen
