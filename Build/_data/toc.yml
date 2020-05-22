@@ -160,8 +160,19 @@
     - url: /Script/02_python/0226_listen
     - url: /Script/02_python/0227_sammeltypen
     
+  - url: /Script/02_python/023_flusskontrolle
+    expand_subsections: false
+    subsections:
+    - url: /Script/02_python/0231_schleifen
+    - url: /Script/02_python/0232_abzweigungen
+    - url: /Script/02_python/0233_funktionen
 
-
+  - url: /Script/02_python/024_weiteres
+    expand_subsections: false
+    subsections:
+    - url: /Script/02_python/0241_module
+    - url: /Script/02_python/0242_formattierte_strings
+    - url: /Script/02_python/0243_dateien
 
 
 #   - title: Zusammenfassung
