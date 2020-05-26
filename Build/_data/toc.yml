@@ -95,14 +95,12 @@
 ########################################
 # Kapitel COMPUTER
 
-- title: Computer
-  url: /Script/01_computer/00_einleitung
+- url: /Script/01_computer/00_einleitung
   not_numbered: false
   expand_sections: false
 
   sections:
-  - title: Digitalisierung
-    url: /Script/01_computer/01_digitalisierung
+  - url: /Script/01_computer/01_digitalisierung
     expand_subsections: false
     subsections:
     - url: /Script/01_computer/011_analoge_informationen
@@ -116,16 +114,14 @@
     - url: /Script/01_computer/023_numerische_algorithmen
 #     - url: /Script/01_computer/024_smp
 
-  - title: Hardware
-    url: /Script/01_computer/03_hardware
+  - url: /Script/01_computer/03_hardware
     expand_subsections: false
     subsections:
     - url: /Script/01_computer/031_geschichte
     - url: /Script/01_computer/032_komponenten
     - url: /Script/01_computer/033_funktionsweise_computer
 
-  - title: Software
-    url: /Script/01_computer/04_software
+  - url: /Script/01_computer/04_software
     expand_subsections: false
     subsections:
     - url: /Script/01_computer/041_betriebssysteme
@@ -225,8 +221,12 @@
 # Add a header and sample content section
 - header: Aufgabensammlung
 
-# Aufgabensammlung
-- url: Exercises/01_computer/uebersicht
+
+########################################
+########################################
+# Aufgabensammlung COMPUTER
+
+- url: /Exercises/01_computer/uebersicht
   not_numbered: true
   expand_section: false
   
@@ -248,7 +248,12 @@
   - title: 1.8 – Betriebssysteme
     url: /Exercises/01_computer/08_betriebssysteme/betriebssysteme
 
-- url: Exercises/02_python/uebersicht
+
+########################################
+########################################
+# Aufgabensammlung PYTHON
+
+- url: /Exercises/02_python/uebersicht
   not_numbered: true
   expand_section: false
   
