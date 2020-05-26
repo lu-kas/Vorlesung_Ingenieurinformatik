@@ -173,7 +173,7 @@
     - url: /Script/02_python/0241_module
     - url: /Script/02_python/0242_formattierte_strings
     - url: /Script/02_python/0243_dateien
-    - url: /Script/02_python/0244_multiprocessing
+#    - url: /Script/02_python/0244_multiprocessing
 
 
 #   - title: Zusammenfassung
@@ -261,9 +261,11 @@
     url: /Exercises/02_python/03_variablen/variablen
   - title: 2.4 – Listen
     url: /Exercises/02_python/04_listen/listen
-  - title: 2.5 – Schleifen
+  - title: 2.5 – Anwendung von Schleifen
     url: /Exercises/02_python/05_schleifen/schleifen
   - title: 2.6 – Abzweigungen
     url: /Exercises/02_python/06_abzweigungen/abzweigungen
-  - title: 2.7 – Funktionen
-    url: /Exercises/02_python/07_funktionen/funktionen
+  - title: 2.7 – Näherungsformel für π
+    url: /Exercises/02_python/07_naeherungsformel_pi/naeherungsformel_pi
+  - title: 2.8 – Sortieralgorithmus
+    url: /Exercises/02_python/08_sortieralgorithmus/sortieralgorithmus
