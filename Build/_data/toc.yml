@@ -274,3 +274,9 @@
     url: /Exercises/02_python/07_naeherungsformel_pi/naeherungsformel_pi
   - title: 2.8 – Sortieralgorithmus
     url: /Exercises/02_python/08_sortieralgorithmus/sortieralgorithmus
+  - title: 2.9 – Formatierte Zeichenketten
+    url: /Exercises/02_python/09_fstrings/fstrings
+  - title: 2.10 – Formatierte Zeichenketten
+    url: /Exercises/02_python/10_daten_auslesen_i/daten_auslesen_i
+  - title: 2.11 – Formatierte Zeichenketten
+    url: /Exercises/02_python/11_daten_auslesen_ii/daten_auslesen_ii
