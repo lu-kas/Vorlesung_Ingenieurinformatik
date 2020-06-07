@@ -120,9 +120,10 @@
     - url: /Script/02_python/0243_dateien
 #    - url: /Script/02_python/0244_multiprocessing
 
+
 ########################################
- ########################################
- # Kapitel DATENANALYSE
+########################################
+# Kapitel DATENANALYSE
 
 - url: /Script/03_datenanalyse/03_einleitung
   not_numbered: false
@@ -217,3 +218,18 @@
     url: /Exercises/02_python/10_einwohner_europa/einwohner_europa
   - title: 2.11 – Temperaturdaten
     url: /Exercises/02_python/11_temperaturdaten/temperaturdaten
+
+
+########################################
+########################################
+# Aufgabensammlung DATENANALYSE
+
+- url: /Exercises/03_datenanalyse/uebersicht
+  not_numbered: true
+  expand_section: false
+  
+  sections:
+  - title: 3.1 – Funktionen Plotten
+    url: /Exercises/03_datenanalyse/01_funktionen_plotten/funktionen_plotten
+  - title: 3.2 – Daten aus Datei Plotten
+    url: /Exercises/03_datenanalyse/02_daten_plotten/daten_plotten
