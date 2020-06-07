@@ -32,57 +32,6 @@
   url: /Overview/cce
   not_numbered: true
 
-# External link
-#- title: GitHub repository
-#  url: https://github.com/jupyter/jupyter-book
-#  external: true
-#  not_numbered: true
-
-# Adds a searchbar link
-#- title: Search
-#  search: true
-
-# Zero chapter
-# - title: Organisatorisches SoSe 2020
-#   url: /Overview/01_organisatorisches/01_organisatorisches
-#   not_numbered: true
-#   expand_sections: false
-#   sections:
-#   - title: Moodle
-#     url: /Overview/01_organisatorisches/02_moodle
-#     expand_subsections: false
-#   - title: Vorlesungsskript
-#     url: /Overview/01_organisatorisches/03_vorlesungsskript
-#     expand_subsections: false
-#   - title: Videoaufzeichung
-#     url: /Overview/01_organisatorisches/04_videoaufzeichnung
-#     expand_subsections: false
-#   - title: JupyterLab
-#     url: /Overview/01_organisatorisches/05_jupyterlab
-#     expand_subsections: false
-#   - title: Beispieldatensätze
-#     url: /Overview/01_organisatorisches/06_beispieldatensaetze
-#     expand_subsections: false
-#   - title: Kontakt
-#     url: /Overview/01_organisatorisches/99_kontakt
-#     expand_subsections: false
-
-# # First chapter
-# - title: Einführung
-#   url: /Overview/02_einfuehrung/01_uebersicht
-#   not_numbered: true
-#   expand_sections: false
-#   sections:
-#   - title: Begleitendes Experiment
-#     url: /Overview/02_einfuehrung/02_experiment
-#     expand_subsections: false
-#   - title: Themenübersicht
-#     url: /Overview/02_einfuehrung/03_themen
-#     expand_subsections: false
-#   - title: Aufbau der Vorlesung
-#     url: /Overview/02_einfuehrung/04_vorlesung
-#     expand_subsections: false
-
 # Divider for meta-pages and content page
 - divider: true
 
@@ -171,52 +120,25 @@
     - url: /Script/02_python/0243_dateien
 #    - url: /Script/02_python/0244_multiprocessing
 
-# ########################################
-# ########################################
-# # Kapitel DATENANALYSE
 
-# - url: /Script/03_datenanalyse/03_einleitung
-#   not_numbered: false
-#   expand_sections: false
+########################################
+########################################
+# Kapitel DATENANALYSE
 
-#   sections:
-#   - url: /Script/03_datenanalyse/031_visualisierung
-#     expand_subsections: false
-#     subsections:
-#     - url: /Script/03_datenanalyse/0311_matplotlib
-#     - url: /Script/03_datenanalyse/0312_1d_plots
-#     - url: /Script/03_datenanalyse/0313_beschriftung
-#     - url: /Script/03_datenanalyse/0314_2d_plots
+- url: /Script/03_datenanalyse/03_einleitung
+  not_numbered: false
+  expand_sections: false
 
-#   - title: Zusammenfassung
-#     url: /Script/01_computer/98_zusammenfassung
-
-#   - title: Übungen
-#     url: /Script/01_computer/99_uebungen
-
-# # Second chapter
-# - title: Python
-#   url: /Script/python/einleitung
-#   expand_sections: false
-#   sections:
-#   - title: Einführung in Jupyter
-#     url: /Script/python/jupyter
-#   - title: Flusskontrolle
-#     url: /Script/python/flusskontrolle
-#   - title: Funktionen und Module
-#     url: /Script/python/funktionen
-
-# # Third chapter
-# - title: Datenanalyse
-#   url: /Script/datenanalyse/einleitung
-#   expand_sections: false
-#   sections:
-#   - title: Datenstrukturen und Einlesen von Daten
-#     url: /Script/datenanalyse/datenstrukturen
-#   - title: Daten graphisch darstellen
-#     url: /Script/datenanalyse/plotten
-#   - title: Fitten und Optimieren
-#     url: /Script/datenanalyse/fitten
+  sections:
+  - url: /Script/03_datenanalyse/031_visualisierung
+    expand_subsections: false
+    subsections:
+    - url: /Script/03_datenanalyse/0311_matplotlib
+    - url: /Script/03_datenanalyse/0312_1d_plots
+    - url: /Script/03_datenanalyse/0313_beschriftung
+    - url: /Script/03_datenanalyse/0314_farben
+    - url: /Script/03_datenanalyse/0315_skalierung
+#     - url: /Script/03_datenanalyse/0315_2d_plots
 
 # # Fourth chapter
 # - title: Numerik
