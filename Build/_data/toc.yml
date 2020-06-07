@@ -171,36 +171,22 @@
     - url: /Script/02_python/0243_dateien
 #    - url: /Script/02_python/0244_multiprocessing
 
+########################################
+ ########################################
+ # Kapitel DATENANALYSE
 
-#   - title: Zusammenfassung
-#     url: /Script/01_computer/98_zusammenfassung
+- url: /Script/03_datenanalyse/03_einleitung
+  not_numbered: false
+  expand_sections: false
 
-#   - title: Übungen
-#     url: /Script/01_computer/99_uebungen
-
-# # Second chapter
-# - title: Python
-#   url: /Script/python/einleitung
-#   expand_sections: false
-#   sections:
-#   - title: Einführung in Jupyter
-#     url: /Script/python/jupyter
-#   - title: Flusskontrolle
-#     url: /Script/python/flusskontrolle
-#   - title: Funktionen und Module
-#     url: /Script/python/funktionen
-
-# # Third chapter
-# - title: Datenanalyse
-#   url: /Script/datenanalyse/einleitung
-#   expand_sections: false
-#   sections:
-#   - title: Datenstrukturen und Einlesen von Daten
-#     url: /Script/datenanalyse/datenstrukturen
-#   - title: Daten graphisch darstellen
-#     url: /Script/datenanalyse/plotten
-#   - title: Fitten und Optimieren
-#     url: /Script/datenanalyse/fitten
+  sections:
+  - url: /Script/03_datenanalyse/031_visualisierung
+    expand_subsections: false
+    subsections:
+    - url: /Script/03_datenanalyse/0311_matplotlib
+    - url: /Script/03_datenanalyse/0312_1d_plots
+    - url: /Script/03_datenanalyse/0313_beschriftung
+    - url: /Script/03_datenanalyse/0314_2d_plots
 
 # # Fourth chapter
 # - title: Numerik
