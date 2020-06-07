@@ -136,7 +136,7 @@
     - url: /Script/03_datenanalyse/0312_1d_plots
     - url: /Script/03_datenanalyse/0313_beschriftung
     - url: /Script/03_datenanalyse/0314_farben
-    - url: /Script/03_datenanalyse/0315_2d_plots
+#     - url: /Script/03_datenanalyse/0315_2d_plots
 
 # # Fourth chapter
 # - title: Numerik
