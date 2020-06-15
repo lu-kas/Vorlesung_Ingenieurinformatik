@@ -140,6 +140,16 @@
     - url: /Script/03_datenanalyse/0315_skalierung
 #     - url: /Script/03_datenanalyse/0315_2d_plots
 
+  - url: /Script/03_datenanalyse/032_numerische_module
+    expand_subsections: false
+    subsections:
+    - url: /Script/03_datenanalyse/0321_numpy
+    - url: /Script/03_datenanalyse/0322_arrays
+    - url: /Script/03_datenanalyse/0323_referenzen
+    - url: /Script/03_datenanalyse/0324_dateien
+    - url: /Script/03_datenanalyse/0325_mehrdimensional
+    - url: /Script/03_datenanalyse/0326_bilder
+
 # # Fourth chapter
 # - title: Numerik
 #   url: /Script/numerik/einleitung
