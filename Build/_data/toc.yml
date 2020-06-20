@@ -118,7 +118,6 @@
     - url: /Script/02_python/0241_module
     - url: /Script/02_python/0242_formattierte_strings
     - url: /Script/02_python/0243_dateien
-#    - url: /Script/02_python/0244_multiprocessing
 
 
 ########################################
@@ -138,9 +137,8 @@
     - url: /Script/03_datenanalyse/0313_beschriftung
     - url: /Script/03_datenanalyse/0314_farben
     - url: /Script/03_datenanalyse/0315_skalierung
-#     - url: /Script/03_datenanalyse/0315_2d_plots
 
-  - url: /Script/03_datenanalyse/032_numerische_module
+  - url: /Script/03_datenanalyse/032_verarbeitung
     expand_subsections: false
     subsections:
     - url: /Script/03_datenanalyse/0321_numpy
@@ -149,6 +147,13 @@
     - url: /Script/03_datenanalyse/0324_dateien
     - url: /Script/03_datenanalyse/0325_mehrdimensional
     - url: /Script/03_datenanalyse/0326_bilder
+
+  - url: /Script/03_datenanalyse/033_modellierung
+    expand_subsections: false
+    subsections:
+    - url: /Script/03_datenanalyse/0331_interpolation
+    - url: /Script/03_datenanalyse/0332_fitting
+    - url: /Script/03_datenanalyse/0333_splines
 
 # # Fourth chapter
 # - title: Numerik
