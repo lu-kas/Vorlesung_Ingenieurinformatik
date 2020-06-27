@@ -248,3 +248,11 @@
     url: /Exercises/03_datenanalyse/01_funktionen_plotten/funktionen_plotten
   - title: 3.2 – Daten aus Datei Plotten
     url: /Exercises/03_datenanalyse/02_daten_plotten/daten_plotten
+  - title: 3.3 - Numpy Arrays
+    url: /Exercises/03_datenanalyse/03_numpy_arrays/arrays
+  - title: 3.4 - Temperaturdaten II
+    url: /Exercises/03_datenanalyse/04_Temperaturdaten_2/temperaturdaten_2
+  - title: 3.5 - Fitting und Interpolation
+    url: /Exercises/03_datenanalyse/05_Interpolation/interpolation
+  - title: 3.6 - Ballonfahrt
+    url: /Exercises/03_datenanalyse/06_ballonfahrt/ballonfahrt
