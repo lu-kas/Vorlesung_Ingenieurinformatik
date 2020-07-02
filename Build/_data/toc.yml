@@ -171,6 +171,12 @@
     - url: /Script/04_numerik/0411_oberuntersumme
     - url: /Script/04_numerik/0412_interpolation
     - url: /Script/04_numerik/0413_montecarlo
+    
+  - url: /Script/04_numerik/042_ableitungen
+    expand_subsections: false
+    subsections:
+    - url: /Script/04_numerik/0421_differenzenquotienten
+    - url: /Script/04_numerik/0422_fitting
 
 
 ########################################
