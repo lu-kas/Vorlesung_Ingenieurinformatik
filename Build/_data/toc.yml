@@ -155,17 +155,26 @@
     - url: /Script/03_datenanalyse/0332_fitting
     - url: /Script/03_datenanalyse/0333_splines
 
-# # Fourth chapter
-# - title: Numerik
-#   url: /Script/numerik/einleitung
-#   expand_section: false
-#   sections:
-#   - title: Integrale und Ableitungen
-#     url: /Script/numerik/integrale_ableitungen
-#   - title: Lösung gewöhhnlicher Differentialgleichungen
-#     url: /Script/numerik/ode
-#   - title: Lösung partieller Differentialgleichungen
-#     url: /Script/numerik/pde
+
+########################################
+########################################
+# Kapitel NUMERIK
+
+- url: /Script/04_numerik/04_einleitung
+  not_numbered: false
+  expand_sections: false
+
+  sections:
+  - url: /Script/04_numerik/041_integrale
+    expand_subsections: false
+    subsections:
+    - url: /Script/04_numerik/0411_oberuntersumme
+    - url: /Script/04_numerik/0412_interpolation
+    - url: /Script/04_numerik/0413_montecarlo
+
+
+########################################
+########################################
 
 
 # Divider for meta-pages and content page
