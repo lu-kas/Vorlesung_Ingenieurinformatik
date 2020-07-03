@@ -175,8 +175,9 @@
   - url: /Script/04_numerik/042_ableitungen
     expand_subsections: false
     subsections:
-    - url: /Script/04_numerik/0421_differenzenquotienten
-    - url: /Script/04_numerik/0422_fitting
+    - url: /Script/04_numerik/0421_taylor
+    - url: /Script/04_numerik/0422_differenzenquotienten
+    - url: /Script/04_numerik/0423_konvergenz
 
 
 ########################################
