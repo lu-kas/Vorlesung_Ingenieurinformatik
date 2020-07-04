@@ -178,7 +178,13 @@
     - url: /Script/04_numerik/0421_taylor
     - url: /Script/04_numerik/0422_differenzenquotienten
     - url: /Script/04_numerik/0423_konvergenz
-
+    
+  - url: /Script/04_numerik/043_dgl
+    expand_subsections: false
+    subsections:
+    - url: /Script/04_numerik/0431_fdm
+    - url: /Script/04_numerik/0432_ode
+    - url: /Script/04_numerik/0433_pde
 
 ########################################
 ########################################
