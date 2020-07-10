@@ -278,3 +278,22 @@
     url: /Exercises/03_datenanalyse/05_interpolation/interpolation
   - title: 3.6 - Ballonfahrt
     url: /Exercises/03_datenanalyse/06_ballonfahrt/ballonfahrt
+
+
+########################################
+########################################
+# Aufgabensammlung Numerik
+
+- url: /Exercises/04_numerik/uebersicht
+  not_numbered: true
+  expand_section: false
+  
+  sections:
+  - title: 4.1 – Trapezfunktion
+    url: /Exercises/04_numerik/01_trapez/trapez
+  - title: 4.2 – Monte Carlo Integration
+    url: /Exercises/04_numerik/02_pi_mc/pi_mc
+  - title: 4.3 - 2. Ableitung 2. Ordnung
+    url: /Exercises/04_numerik/03_abl_analytisch/abl_analytisch
+  - title: 4.4 - Ableitung und Genauigkeit
+    url: /Exercises/04_numerik/04_abl_num/abl_num
