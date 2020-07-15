@@ -297,3 +297,7 @@
     url: /Exercises/04_numerik/03_abl_analytisch/abl_analytisch
   - title: 4.4 - Ableitung und Genauigkeit
     url: /Exercises/04_numerik/04_abl_num/abl_num
+  - title: 4.5 - Ableitungsfunktion
+    url: /Exercises/04_numerik/05_ableitungsfunktion/ableitungsfunktion
+  - title: 4.6 - Temperaturgleichung
+    url: /Exercises/04_numerik/06_temperaturgleichung/temperaturgleichung
