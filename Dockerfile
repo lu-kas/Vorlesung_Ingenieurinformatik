@@ -11,7 +11,7 @@ RUN apt update && apt install python3-pip -y
 RUN ln -s /usr/bin/python3 /usr/bin/python
 
 # ------------- JupyterBook ------------- #
-RUN python3 -m pip install jupyter-book
+RUN python3 -m pip install jupyter-book==0.6.5
 RUN apt install ruby-full build-essential zlib1g-dev -y
 RUN gem install jekyll
 RUN gem install bundler -v "1.17.2"
