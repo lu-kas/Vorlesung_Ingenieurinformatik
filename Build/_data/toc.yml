@@ -301,3 +301,44 @@
     url: /Exercises/04_numerik/05_ableitungsfunktion/ableitungsfunktion
   - title: 4.6 - Temperaturgleichung
     url: /Exercises/04_numerik/06_temperaturgleichung/temperaturgleichung
+
+
+########################################
+########################################
+
+
+# Divider for meta-pages and content page
+- divider: true
+
+# Add a header and sample content section
+- header: Seminar Data Analysis
+
+########################################
+########################################
+# Aufgabensammlung Numerik
+
+- url: /Excursion_Data_Analysis/01_introduction/01_Python_Basics
+  title: Python - Basics
+  not_numbered: true
+  expand_section: false
+
+- url: /Excursion_Data_Analysis/02_flow_control/02_flow_control
+  title: Python - Flow Control
+  not_numbered: true
+  expand_section: false
+
+  # sections:
+  # - title: 4.1 – Trapezfunktion
+  #   url: /Exercises/04_numerik/01_trapez/trapez
+  # - title: 4.2 – Monte Carlo Integration
+  #   url: /Exercises/04_numerik/02_pi_mc/pi_mc
+  # - title: 4.3 - 2. Ableitung 2. Ordnung
+  #   url: /Exercises/04_numerik/03_abl_analytisch/abl_analytisch
+  # - title: 4.4 - Ableitung und Genauigkeit
+  #   url: /Exercises/04_numerik/04_abl_num/abl_num
+  # - title: 4.5 - Ableitungsfunktion
+  #   url: /Exercises/04_numerik/05_ableitungsfunktion/ableitungsfunktion
+  # - title: 4.6 - Temperaturgleichung
+  #   url: /Exercises/04_numerik/06_temperaturgleichung/temperaturgleichung
+
+
