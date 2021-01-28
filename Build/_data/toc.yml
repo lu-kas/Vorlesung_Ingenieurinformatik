@@ -318,25 +318,31 @@
 # Aufgabensammlung Numerik
 
 - url: /Excursion_Data_Analysis/01_introduction/01_Python_Basics
-  title: Python - Basics
+  title: Basics
   not_numbered: true
   expand_section: false
 
 - url: /Excursion_Data_Analysis/02_flow_control/02_flow_control
-  title: Python - Flow Control
+  title: Flow Control
   not_numbered: true
   expand_section: false
 
 - url: /Excursion_Data_Analysis/03_matplotlib/03_matplotlib_basics
-  title: Python - Matplotlib Basics
+  title: Matplotlib Basics
   not_numbered: true
   expand_section: false
 
 - url: /Excursion_Data_Analysis/04_numpy/04_numpy_basics
-  title: Python - NumPy Basics
+  title: NumPy Basics
   not_numbered: true
   expand_section: false
 
+- url: /Excursion_Data_Analysis/05_optimisation/05_optimisation
+  title: Optimisation
+  not_numbered: true
+  expand_section: false
+  
+  
   # sections:
   # - title: 4.1 – Trapezfunktion
   #   url: /Exercises/04_numerik/01_trapez/trapez
