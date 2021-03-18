@@ -342,6 +342,11 @@
   not_numbered: true
   expand_section: false
   
+- url: /Excursion_Data_Analysis/06_image_processing/06_image_processing
+  title: Image Processing
+  not_numbered: true
+  expand_section: false
+  
   
   # sections:
   # - title: 4.1 – Trapezfunktion
